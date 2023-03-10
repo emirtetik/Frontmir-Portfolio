@@ -1,0 +1,112 @@
+.link{
+    background-color: #000000;
+      font-family: 'Bree Serif', serif;
+    
+    font-size: 15px;
+   letter-spacing: 2px;
+   color: rgb(255, 255, 255);
+   width: 100%;
+   padding-top: 6.5%;
+   background-image: url("../public/images/graph-1.png");
+   background-size: cover;
+  padding-top: 8rem;
+   background-repeat: no-repeat;
+   height: auto;
+  
+  }
+  
+    
+   div .links {
+     text-decoration: none;
+     color: wheat;
+  
+        }
+  .links {
+    background-color: #000000;
+    text-align: center;
+    margin-top: 20px;
+     padding: 1em 2em;
+     border:3px solid #3D0000 ;
+     box-shadow: 0.3em 0.3em ;
+     width: 300px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-transform: uppercase;
+     font-weight: 900;
+     border-radius: 20px;
+      font-family: 'Bree Serif', serif;
+  
+        }
+        
+  .links:hover {
+    transform: translate(0.30em, 0.30em);
+    box-shadow: 0.20em 0.20em;
+    background-color: #3D0000;
+   }
+   .profile_img {
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    background: linear-gradient(90deg, #ffffff 50%, transparent 50%), linear-gradient(0deg, #ffffff 50%, transparent 50%), linear-gradient(0deg, #ffffff 50%, transparent 50%);
+    transition: 2s;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 250px 200px, 0px 250px, 200px 0px;
+    padding: 10px;
+    animation: border-dance 4s infinite linear;
+    }  
+     @keyframes border-dance {
+      0% {
+        background-position: 0px 0px, 250px 200px, 0px 200px, 250px 0px;
+      }
+      100% {
+        background-position: 250px 0px, 0px 200px, 0px 0px, 250px 200px;
+      }
+    } 
+  
+  .profile_name {
+   text-align: center;
+   padding: 30px;
+   font-size: 24px;
+   font-weight: 900;
+   font-family: 'Bree Serif', serif;
+  
+      }
+      .profile_text{
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+      font-family: 'Bree Serif', serif;
+  
+      }
+      .linktree{
+        display: grid;
+        text-align: center;
+        margin: auto;
+        text-transform: uppercase;
+        font-size: 2vh;
+        margin-top: 3rem;
+        font-weight: 900;
+        padding-bottom: 3rem;
+           font-family: 'Press Start 2P', cursive;
+  
+  
+      }
+      @media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
+        .link{
+          height: auto;
+        }
+      }
+      @media (min-width: 481px) and (max-width: 767px) {
+        .link{
+          height: auto;
+        }
+      }
+      @media (min-width: 320px) and (max-width: 480px) {
+        .link{
+          height: auto;
+        }
+      }

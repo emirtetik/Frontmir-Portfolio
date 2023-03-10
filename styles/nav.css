@@ -1,0 +1,429 @@
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+	display: flex;
+  position: fixed;
+  width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	height: 91px;
+	padding: 0 2rem;
+  opacity: 0.8;
+  z-index: 1000;
+  background: #000000;
+}
+
+header:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(20deg, #5c0000 98%, #000000 100% );
+  transform: translate3d(0px, 10px, 0) scale(0.95);
+  filter: blur(14px);
+  opacity: var(0.6);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+
+header::after { 
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+      
+
+
+.logo {
+ font-size: 30px;
+ margin: 2rem;
+}
+
+
+.logo_link{
+  color: rgb(238, 238, 238);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-family: 'Monoton', cursive;
+  -webkit-text-stroke: 0px #000000;
+  text-shadow: 
+     0px 10px 0px #a10000,
+    5px 15px 0px #7a0000,
+    10px 20px 0px #580000,
+    15px 25px 0px #3D0000,
+    20px 30px 5px #000000;
+  cursor: pointer;
+ }
+ 
+ .logo_link:hover {
+  text-shadow: none;
+  color: #ff0000;
+
+ 
+ }
+.mir{
+  color: #8B0000;
+ transition: all 0.5s;
+ font-family: 'Josefin Sans', sans-serif;
+
+ -webkit-text-stroke: 2px #ffffff;
+ text-shadow: 
+ 0px -10px 0px #a10000,
+5px -15px 0px #7a0000,
+10px -20px 0px #580000,
+15px -25px 0px #3D0000,
+20px -30px 5px #000000;
+
+  
+}
+.mir:hover{
+  text-shadow: none;
+  -webkit-text-stroke: 4px #ffffff;
+ 
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+.menu_list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+
+  color: antiquewhite;
+}
+.nav  a{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  position: relative;
+  padding: 14px;
+  letter-spacing: 4px;
+  font-family: 'Monoton', cursive;
+
+   font-size: 10pt;
+ } 
+nav .active{
+  color: wheat;
+ }
+
+ .nav  a:after {    
+bottom: 0;
+content: "";
+left: 0;
+position: absolute;
+border-bottom: 3px solid #ffffffb0;
+transition: width 0.5s ease 0.1s, left 0.5s ease 0s;
+width: 0;
+}
+
+.nav  a:hover:after { 
+width: 100%; 
+left: 0; 
+} 
+
+.nav  a:hover .arrow{
+  display: block;
+  position: absolute;
+  left: -0.5em;
+}
+
+ .arrow{
+  display: none;
+  color: #ffffffb0;
+ }
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+    color: #ffffff;
+	}
+.nav_list{
+  font-size: 10pt;
+}
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+    background: repeating-linear-gradient(to left, #000000, #000000 2px, #000000 2px, #000000 4px);
+    z-index: 1000;
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+
+	header .responsive_nav {
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav .menu_list {
+		font-size: 1.5rem;
+    
+	}
+  .logo {
+    left: 10%;
+    position: relative;
+    font-size: 25px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  header .nav-btn {
+    right: 3rem;
+    position: absolute;
+	}
+  nav .nav-close-btn{
+    right: 3rem;
+    position: absolute;
+  }
+  .logo {
+    left: 10%;
+    position: relative;
+    font-size: 20px;
+  }
+  .menu_list {
+
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .nav_list{
+     font-size: 9pt;
+   } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:ital,wght@1,300&display=swap');
+ .logo {
+  float: left; 
+  font-size: 30px;
+  margin: 2rem;
+  position: absolute;
+  width: 300px;
+  text-align: center;
+}
+
+.logo_link{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-text-stroke: 2px #ffffff;
+  text-shadow: 
+     5px 10px 0px #a10000,
+    13px 15px 0px #7a0000,
+    20px 20px 0px #580000,
+    25px 25px 0px #3D0000,
+    35px 30px 5px #000000;
+  cursor: pointer;
+}
+
+.logo_link:hover {
+  text-shadow: none;
+}
+
+@media screen and (max-width:480px) {
+  .logo {
+
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+  }
+
+ 
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+  background: repeating-linear-gradient(to left, #424242, #000000 2px, #0c0914 2px, #140e29 4px);
+
+	padding: 0 2rem;
+}
+
+  header .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    max-width: 100%;
+    z-index: 10;
+
+  }
+
+  header .navigation .menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    color: antiquewhite;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Vinyl&display=swap');
+
+  .nav_list{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 14px;
+	font-family: 'Rubik Vinyl', cursive;
+   font-size: 12pt;
+ } 
+
+ .nav_list:after {    
+bottom: 0;
+content: "";
+left: 0;
+position: absolute;
+border-bottom: 3px solid #ff0000b0;
+transition: width 0.5s ease 0.1s, left 0.5s ease 0s;
+width: 0;
+}
+
+.nav_list:hover:after { 
+width: 100%; 
+left: 0; 
+} 
+
+.nav_list:hover .arrow{
+  display: block;
+  position: absolute;
+  left: -0.5em;
+}
+
+ .arrow{
+  display: none;
+  color: #ff0000b0;
+ }
+
+ .active{
+    color: red;
+} */

@@ -1,0 +1,413 @@
+
+.blog{  
+ width: 100%;
+  background: black;
+  height: auto;
+  padding-top: 5%;
+}
+ 
+    
+#blog{
+    max-width: 950px;
+    margin: auto;
+    border-radius: 30px;
+    display: grid;
+    row-gap: 3rem;
+    background-color: #3D0000;
+    box-shadow: rgb(46, 0, 0) 5px 5px, rgb(56, 0, 0)  10px 10px, rgb(61, 0, 0)  15px 15px, rgb(76, 0, 0)  20px 20px, rgb(86, 0, 0)  25px 25px;
+    padding-bottom: 5rem;
+    border: 10px solid #3D0000;
+  }
+                           /* ---input--- */
+  .search{
+    margin: auto;
+    display: grid;
+    place-items: center;
+  }
+
+  .input {
+    
+    border: 1ex solid none;
+    border-top-width: 1.7em ;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    outline: 7px solid #3D0000;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    transition: all 1s;
+    max-width: 400px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+
+   }
+   
+   .input:hover {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
+   
+   .input:focus {
+    border-top-width: 0.2em;
+    background-color: #f1e8e8;
+   }
+
+
+
+.text{
+  display: grid;
+  place-items:center;
+  margin-top: 3rem;
+  padding-left: 1rem;
+}
+.text h2{
+  margin: 3rem;
+  font-size: 3vh ;
+  color: #000000;
+	font-family: 'Press Start 2P', cursive;
+}
+.h1{
+    margin-bottom: 2rem;
+    font-size: 3vh ;
+    color: #000000;
+      font-family: 'Press Start 2P', cursive;
+}
+
+.text p{
+  line-height: 35px;
+  max-width:600px;
+  color: rgb(255, 255, 255);
+  font-size: 2.5vh;
+  text-indent: 20px;
+}
+.sidebar {
+  margin: 30px;
+  position: fixed;
+  margin-top: 50px;
+  background-color: #1f0404;
+  border-radius: 30px;
+  width: 300px;
+  height: 450px;
+  z-index: 1000;
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 2px dashed #a7a4a4;
+  border-bottom: 2px dashed #a7a4a4;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+   letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8d0f0f;
+  font-weight: 600;
+}
+
+.avatar_sidebar {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.sidebarItem > p {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  margin: 0px 5px 0 20px;
+}
+
+
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebarSocial {
+  margin-top: 15px;
+  display: flex;
+}
+
+
+
+
+@media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
+  .blog{  
+     padding-top: 5%;
+   }
+  .sidebar {
+    margin: 30px;
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
+    left: 23%;
+    height: 350px;
+    z-index: 10;
+  
+  
+ }
+
+.avatar_sidebar {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebarItem > p {
+  padding: 10px;
+}
+
+.sidebarListItem {
+  margin-top: 5px;
+}
+
+.sidebarSocial {
+  margin-top: 5px;
+}
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .blog{  
+    padding-top: 13%;
+  }
+  
+  .sidebar {
+    margin: 30px;
+    position: relative;
+    margin-top: 50px;
+    width: 90%;
+    height: 350px;
+    z-index: 10;
+  
+  
+ }
+
+.sidebarItem > img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebarItem > p {
+  padding: 10px;
+}
+
+.sidebarListItem {
+  margin-top: 5px;
+}
+
+.sidebarSocial {
+  margin-top: 5px;
+}
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .blog{
+    padding-top: 23%;
+  }
+  .search{
+    margin-top: 0rem;
+  }
+  .sidebar {
+    margin: 30px;
+    position: relative;
+    margin-top: 50px;
+    width: 80%;
+    left: 2%;
+    height: 360px;
+    z-index: 10;
+  
+  
+ }
+
+.sidebarItem > img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebarItem > p {
+  padding: 10px;
+}
+
+.sidebarListItem {
+  margin-top: 5px;
+}
+
+.sidebarSocial {
+  margin-top: 5px;
+}
+  .text h1{
+    font-size: 3vh ;
+    color: #000000;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .text h2{
+    font-size: 2vh;
+    padding-left: 2rem;
+  }
+  .text p{
+    line-height: 35px;
+    max-width:600px;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+  }
+
+  
+}
+
+
+.container_card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: -1.5rem;
+}
+.card{
+  width: 49.8rem;
+  height: 23rem;
+  background: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border-bottom: 10px solid #b11313;
+  border-left: 5px  #b11313 outset;
+}
+.card:hover{
+  border-bottom: 10px solid #ffffff;
+	border-left: 5px  #ffffff outset;
+    padding: 1rem;
+}
+.card_img{
+  width: 100%;
+
+  height: auto;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  max-height: 9rem;
+  object-fit: cover/center;
+  border-radius: 1.5rem;
+}
+
+.blog_title{
+   color: white; 
+   font-family: 'Bree Serif', serif;
+
+  font-size: 1.5rem;
+}
+
+.blog_description{
+  padding: 1rem 0;
+  color:burlywood;
+  font-size: 1rem;
+  font-family: 'Bree Serif', serif;
+
+}
+
+.blog_time{
+  font-size: .8rem;
+  font-family: 'Bree Serif', serif;
+
+  color: burlywood;
+}
+
+.blog_option{
+  font-size: 1rem;
+  font-family: 'Bree Serif', serif;
+
+ 
+}
+
+.blog_option span{
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Bree Serif', serif;
+
+}
+
+.btn{
+  font-family: 'Bree Serif', serif;
+
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: #3D0000;
+    box-shadow: 3px 3px #fff;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px ;
+    float: right;
+  }
+  
+  .btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
+
+@media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
+
+       
+.card{
+width: 40rem;
+height: 22rem;
+background: rgb(0, 0, 0);
+border-radius: 1.5rem;
+padding: 1.5rem;
+border-bottom: 10px solid #aa0808;
+border-left: 5px  #aa0808 outset;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+.card{
+  width: 28rem;
+  height: 21rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border-bottom: 10px solid #000000;
+  border-left: 5px  #000000 outset;
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.card{
+  width: 18rem;
+  height: 25rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border-bottom: 10px solid #000000;
+  border-left: 5px  #000000 outset;
+}
+    
+
+
+}
+    
