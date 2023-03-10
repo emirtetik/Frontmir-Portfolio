@@ -65,7 +65,7 @@ export default function Home() {
 
 <div className="hero-box">
 <div className='img-div'>
-  <Image priority width={250} height={200} className="images" src="https://res.cloudinary.com/practicaldev/image/fetch/s--B9m6Xh9W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/wuhzze0mss8frjkzttrt.gif" alt="gif"/>
+  <Image priority width={300} height={350} className="images" src="https://res.cloudinary.com/practicaldev/image/fetch/s--B9m6Xh9W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/wuhzze0mss8frjkzttrt.gif" alt="gif"/>
 </div>
 <div className="hero-text">
 <div className="hero-content"> 
