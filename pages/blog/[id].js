@@ -4,7 +4,6 @@ import {MdAttachEmail} from "react-icons/md"
 import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {SiFiverr} from "react-icons/si"
 import Detailscss from "../../styles/Details.module.css"
-import data from '../../data';
 import Meta from "../../components/Meta"
 import Image from 'next/image'
 import Footer from '@/components/Footer'
@@ -73,32 +72,32 @@ import Layout from '@/layout/Layout'
 
         <Image   priority className={Detailscss.image} src={blogger?.img} alt="İmage" width={800} height={300} />
         <p>{blogger?.text1}</p>
-        <Image priority  className={Detailscss.image} src={blogger?.img1} alt="İmage" width={800} height={300}/>
+        {/* <Image priority  className={Detailscss.image} src={blogger?.img1} alt="İmage" width={800} height={300}/> */}
         <p>{blogger?.text2}</p>
         <h5>{blogger?.soru}</h5>
         <p>{blogger?.text3}</p>
 
 
-        <Image  priority className={Detailscss.image} src={blogger?.img2} alt="İmage" width={800} height={300}/>
+        {/* <Image  priority className={Detailscss.image} src={blogger?.img2} alt="İmage" width={800} height={300}/> */}
 
         <h5>{blogger?.soru1}</h5>
         <p>{blogger?.text4}</p>
         <p>{blogger?.text4_5}</p>
 
         
-        <Image  priority className={Detailscss.image} src={blogger?.img3} alt="İmage" width={800} height={300}/>
+        {/* <Image  priority className={Detailscss.image} src={blogger?.img3} alt="İmage" width={800} height={300}/> */}
 
         <p>{blogger?.text5}</p>
 
  
-        <Image priority className={Detailscss.image} src={blogger?.img4} alt="İmage" width={800} height={300}/>
+        {/* <Image priority className={Detailscss.image} src={blogger?.img4} alt="İmage" width={800} height={300}/> */}
 
         <p>{blogger?.text6}</p>
         <h5>{blogger?.soru2}</h5>
 
         <p>{blogger?.text6_5}</p>
 
-        <Image priority className={Detailscss.image} src={blogger?.img5} alt="İmage" width={800} height={300}/>
+        {/* <Image priority className={Detailscss.image} src={blogger?.img5} alt="İmage" width={800} height={300}/> */}
 
 
         <p>{blogger?.text7}</p>
