@@ -351,6 +351,9 @@
   font-family: 'Bree Serif', serif;
 
 }
+.blog_option a {
+  text-decoration: none;
+}
 
 .btn{
   font-family: 'Bree Serif', serif;

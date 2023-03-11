@@ -98,12 +98,13 @@ const  Blog = ({data}) => {
     <span>
     {blog.make}
     </span>
-     <button type='button'
-      onClick={() => router.push(`blog/${blog.id}`)}
+     <Link type='button'
+      href={`blog/${blog.id}`}
+      // onClick={() => router.push(`blog/${blog.id}`)}
       className={Blogcss.btn}
      >
       blog
-     </button>
+     </Link>
      <a href={blog.href}> <button className={Blogcss.btn}>githup</button></a>
 
 
