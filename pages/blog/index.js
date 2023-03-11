@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Footer from '@/components/Footer'
 import Meta from '@/components/Meta'
-import Layout from '@/layout/Layout'
+import Layout from '@/components/layout/Layout'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'

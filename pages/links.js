@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Head from 'next/head'
-import Layout from '@/layout/Layout'
+import Layout from '@/components/layout/Layout'
 import Meta from "@/components/Meta"
 import Linkcss from "../styles/Links.module.css"
 function Links() {

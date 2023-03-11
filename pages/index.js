@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {SiFiverr} from "react-icons/si"
 import {MdAttachEmail} from "react-icons/md"
-import Layout from '@/layout/Layout'
+import Layout from '@/components/layout/Layout'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import Meta from '@/components/Meta'

@@ -7,9 +7,7 @@ import Detailscss from "../../styles/Details.module.css"
 import Meta from "../../components/Meta"
 import Image from 'next/image'
 import Footer from '@/components/Footer'
-import Layout from '@/layout/Layout'
-
-
+import Layout from '@/components/layout/Layout'
  const Details = ({detailData}) => {
    
   const router = useRouter();
