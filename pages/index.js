@@ -16,8 +16,9 @@ import kuofor1 from "../public/images/kuofor1.png"
 import nodejs from "../public/images/nodejs.png"
 import responsive from "../public/images/responsive.png"
 
+
+
 export default function Home() {
- 
   useEffect(() => {
     AOS.init({duration:1000});
   },[]);
