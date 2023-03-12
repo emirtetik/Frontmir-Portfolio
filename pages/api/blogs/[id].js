@@ -1,4 +1,4 @@
-import {data} from "../../../data.json"
+import {data} from "./data.js"
 
 
 export default function handler ({query: {id}},res){
@@ -11,4 +11,5 @@ export default function handler ({query: {id}},res){
     res.status(404).json({message:`${id} is not found`});
 
     }
+    
 }

@@ -1080,7 +1080,16 @@ margin-left: -10px;
 		padding: 0rem 0;
 		font-size: 2vh;
 	  }
-	  
+	  .card{
+		height: auto;
+	  }
+	  .card-img-holder img{
+		width: 100%;
+		height: auto;
+		max-height: 15rem;
+		object-fit: cover;
+		border-radius: 1.5rem;
+	  } 
 .section-triangle3 {
     width: 100%;
 	border-left: 2vh solid #3D0000;

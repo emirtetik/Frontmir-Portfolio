@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build  && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +16,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
+    "sharp": "^0.31.3",
     "tsparticles": "^2.9.3",
     "tsparticles-engine": "^2.9.3",
     "tsparticles-slim": "^2.9.3"

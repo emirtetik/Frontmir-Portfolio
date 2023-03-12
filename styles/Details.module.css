@@ -89,12 +89,10 @@
      height: 80%;
   }
   .container_detail h1 {
-    margin: 1rem;
     color: rgb(0, 0, 0);
       font-family: 'Press Start 2P', cursive;
   }
   .container_detail p{
-    margin-top: 1rem;
     max-width:600px;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -120,7 +118,10 @@
     font-size: 20px;
     font-family: 'Press Start 2P', cursive;
   }
-  
+  .not strong{
+    color: #000000;
+    font-size: 30px;
+  }
   
   @media only screen and (max-width:780px) {
   
@@ -138,15 +139,16 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
   
-    .image{
+    /* .image{
      max-width: 350px;
      box-shadow: none; 
      margin-top: 2rem;
      height: 13rem;
      padding-top: -1rem;
-  }
+  } */
   .container_detail h1 {
      font-size: 22px;
+     margin-bottom: 0;
   }
   .sidebar{
     display: none;
@@ -159,7 +161,7 @@
     color: #000000;
     font-size: 3vh;
   }
- 
+
   }
   
   

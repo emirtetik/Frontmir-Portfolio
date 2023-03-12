@@ -16,9 +16,9 @@ function Links() {
       />
   <div className={Linkcss.link}>
                    {/* <!-- Profile picture--> */}
-       <Image
-        loading="eager" priority={true}
-        src="/images/avatar3.png" className={Linkcss.profile_img}  alt="profil" width={200} height={200} />            
+                   <Image  priority={true}   width={150} height={150} src="/images/avatar3.png" alt="avatar" className={Linkcss.profile_img} placeholder="blur"
+        blurDataURL={'/images/avatar3.png'}/>
+           
 
      <div className={Linkcss.profile_name}>Frontend Developer</div>
      <p className={Linkcss.profile_text}>Web Teknolojileri Üreticisi</p>

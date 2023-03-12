@@ -288,7 +288,7 @@ Html-Css-Js
 </span>
 <a href="https://github.com/emirtetik/ayvazz.index"> <button className="btn">Githup</button></a>
 
-<a href="/Blog"> <button className="btn">Blog</button></a>
+<a href="/blog"> <button className="btn">Blog</button></a>
 </div>
 </div>
 
@@ -335,7 +335,8 @@ Blog'u oku..
 <div className="card" data-aos="zoom-in">
 
 <div className="card-img-holder">
-<Image priority src={responsive} alt='proje' width={800} height={300} />
+<Image priority src={responsive} alt='proje' width={800} height={300}  placeholder="blur"
+  blurDataURL={'/images/responsive.png'}/>
 
 </div>
 <h3 className="blog-title">Responsive Tasarım Nedir?</h3>

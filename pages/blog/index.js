@@ -53,7 +53,7 @@ const  Blog = ({data}) => {
         </div>
       </div>
     </div>
-      <section id={Blogcss.blog}>
+      <section id={Blogcss.blog}> 
    
                                           {/* ----metin---- */}
         
@@ -63,7 +63,9 @@ const  Blog = ({data}) => {
           <p><b>FRONTMİR </b>'in bloguna hoş geldiniz! Burada web teknolojileriyle ilgili makaleler ve ilginç trendler hakkında keyifle okuyabileceğiniz içerikler sunuyoruz. Başka bir deyişle, Frontend developer hakkında en son gelişmeleri takip etmenin ve bu konular
              hakkında daha fazla bilgi sahibi olmanın kolay yolunu sunuyoruz. Keyifle okuyun! ( Bu metin <b> ChatGPT </b> ile oluşturulmuştur. )</p>
           <h2>Tüm Blog ve çalışmalarım!</h2>
-        <p>Belki aradığınız buradadır.</p>
+        <p>Belki aradığınız buradadır. <br /> 
+          yeni çalışmalırım ve bloglar yakında eklenecektir;
+        </p>
         </div>
 
         <div className={Blogcss.search}>
@@ -98,7 +100,7 @@ const  Blog = ({data}) => {
     <span>
     {blog.make}
     </span>
-     <Link type='button'
+     <Link 
       href={`blog/${blog.id}`}
       // onClick={() => router.push(`blog/${blog.id}`)}
       className={Blogcss.btn}

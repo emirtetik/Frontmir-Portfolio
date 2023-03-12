@@ -8,11 +8,19 @@ import Meta from "../../components/Meta"
 import Image from 'next/image'
 import Footer from '@/components/Footer'
 import Layout from '@/components/layout/Layout'
+import data from '../api/blogs/data.js'
+
+
+
+
  const Details = ({detailData}) => {
-   
+
   const router = useRouter();
+
   const [blogger, setBlogger]=useState();
+
   const {id} = router.query;
+
 
   useEffect(() => {
     const getData = async () =>{
@@ -27,10 +35,9 @@ import Layout from '@/components/layout/Layout'
       }
   };
   getData();
+
 },[id,detailData]);
  
-
-
 
     return (
         <Layout>
@@ -59,7 +66,7 @@ import Layout from '@/components/layout/Layout'
       </div>
     </div>
 
-
+     
         <section id={Detailscss.Details}>
 
      <div className={Detailscss.container_detail}>
@@ -68,40 +75,34 @@ import Layout from '@/components/layout/Layout'
         <p>{blogger?.text}</p>
         <p> {blogger?.listext1}</p>
 
-        <Image   priority className={Detailscss.image} src={blogger?.img} alt="İmage" width={800} height={300} />
         <p>{blogger?.text1}</p>
-        {/* <Image priority  className={Detailscss.image} src={blogger?.img1} alt="İmage" width={800} height={300}/> */}
         <p>{blogger?.text2}</p>
         <h5>{blogger?.soru}</h5>
         <p>{blogger?.text3}</p>
 
 
-        {/* <Image  priority className={Detailscss.image} src={blogger?.img2} alt="İmage" width={800} height={300}/> */}
 
         <h5>{blogger?.soru1}</h5>
         <p>{blogger?.text4}</p>
         <p>{blogger?.text4_5}</p>
 
         
-        {/* <Image  priority className={Detailscss.image} src={blogger?.img3} alt="İmage" width={800} height={300}/> */}
 
         <p>{blogger?.text5}</p>
 
  
-        {/* <Image priority className={Detailscss.image} src={blogger?.img4} alt="İmage" width={800} height={300}/> */}
 
         <p>{blogger?.text6}</p>
         <h5>{blogger?.soru2}</h5>
 
         <p>{blogger?.text6_5}</p>
 
-        {/* <Image priority className={Detailscss.image} src={blogger?.img5} alt="İmage" width={800} height={300}/> */}
 
 
         <p>{blogger?.text7}</p>
         <h2 className={Detailscss.h2}>{blogger?.sonuc}</h2>
         <p>{blogger?.text8}</p>
-
+        <p className={Detailscss.not}><strong>Fotoğraflar için üzgünüm yakın zamanda görseller ve live seçeneği ile blog sayfam zenginleşicektir.</strong></p>
         </div>
 
         </section>
@@ -122,23 +123,23 @@ export const getStaticProps = async () => {
 
   return{
     props:{
-      detailData
-    }
-  }
+      detailData,
+    },
+  };
 
-}
+};
 
 
 export const getStaticPaths = async () => {
   const  res = await fetch(`http://localhost:3000/api/blogs`);
   const data = await res.json();
   const ids = data.map((blogger) => blogger.id);
-  const paths =ids.map((id)=> ({params:{id: id.toString()}}))
+  const paths =ids.map((id)=> ({params:{id: id.toString()}}));
   return{
     paths,
     fallback: false,
-  }
+  };
 
-}
+};
 
 

@@ -1,4 +1,6 @@
-{  "data" : [   {
+
+
+export  const  data = [  {
         "id":1,
         "header":"AyvazCamping Work",
         "date":  "9 Ekim 2022'de yüklendi.",
@@ -78,8 +80,8 @@
         "text5":" Beğendiğiniz bir tanesini seçerek izleyip en kolay yoldan sitenizi Responsive bir şekilde tasarlamış olursunuz.% ile Çalışma: Yüzdeyle çalıştığınız zaman başka hiçbir şey yapmanıza gerek yoktur. Ama tek sorun % ile çalışmanız “px” ile çalışmaktan biraz daha zordur.@media Etiketi: Temanızın her çözünürlükte aynı olarak düzenlersiniz. Temalarda “px” ile çalışanlar için tercih edilmesi gereken bir yöntemdir.",
         "text6_5":"Responsive Tasarım  Web sitesi geliştirirken “px” ile ilgili çalışanların sabit ölçü değerleri vardır. Bu ölçülerle her kullanıcıya daha kolay bir şekilde ulaşılır.  Mobil Tasarımlar için 768 px boyutundan daha küçük ölçüler ile çalışma yapmalısınız.Masaüstü Tasarımlar için 992 px boyutundan daha küçük ölçüleri kullanarak çalışma yapmalısınız.Tablet Tasarımlar için 768 px boyutundan daha küçük ölçüler ile çalışma yapmalısınız.Büyük ekranlar da 1200 px boyutundan daha küçük ölçüler yardımıyla çalışma yapmalısınız.",
         "text7":"Responsive Tasarım Teknikleri Nelerdir? Responsive tasarım nedir? Responsive tasarım teknikleri şunlardır; Responsive tasarlanırken birçok teknik bulunmaktadır. Bu teknikler web sitesi geliştirirken size çok yardımcı olacaktır. Responsive kolay yoldan çalışmak isterseniz, bunu Bootstrap ile çalışmalısınız. PX ile çalışmak çoğu zaman daha rahat geliyor. Sizlerde rahatınıza düşkünseniz PX ile çalışmalısınız ama @media ile tasarlamayı öğrenmeniz gerekir. Temanız için bir resim kullanacaksanız vektörel çizilmiş bir resim olmalıdır. Bu sayede resmi ne kadar küçültüp büyütseniz de resmin kalitesinde herhangi bir sorun olmayacaktır.Adsense' deki reklamlarınızı mobil uyumlu hale getirin. Bloğumu okuduğunuz için teşekkür ederim bir sonraki blogta görüşmek üzere.  "
-
     }
-    
+
 ]
-}
+
+

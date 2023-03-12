@@ -45,12 +45,13 @@
     background-color: #3D0000;
    }
    .profile_img {
+    width: auto;
     height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
-    background: linear-gradient(90deg, #ffffff 50%, transparent 50%), linear-gradient(0deg, #ffffff 50%, transparent 50%), linear-gradient(0deg, #ffffff 50%, transparent 50%);
+    background: linear-gradient(90deg, #ffffff 50%, transparent 50%), linear-gradient(0deg, #ffffff00 50%, transparent 50%), linear-gradient(0deg, #ffffff 50%, transparent 50%);
     transition: 2s;
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
     background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
