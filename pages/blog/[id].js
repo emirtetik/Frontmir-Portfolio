@@ -8,36 +8,12 @@ import Meta from "../../components/Meta"
 import Image from 'next/image'
 import Footer from '@/components/Footer'
 import Layout from '@/components/layout/Layout'
-import data from '../api/blogs/data.js'
+import data from '../../data.js'
 
 
 
 
- const Details = ({detailData}) => {
-
-  const router = useRouter();
-
-  const [blogger, setBlogger]=useState();
-
-  const {id} = router.query;
-
-
-  useEffect(() => {
-    const getData = async () =>{
-      try{
-        const res = await fetch("http://localhost:3000/api/blogs");
-        const data = await res.json();
-        setBlogger(detailData && detailData.find((u) => u.id == id));
-      }
-
-      catch(err){
-     console.log(err);
-      }
-  };
-  getData();
-
-},[id,detailData]);
- 
+ const Details = ({userData}) => {
 
     return (
         <Layout>
@@ -71,37 +47,39 @@ import data from '../api/blogs/data.js'
 
      <div className={Detailscss.container_detail}>
                    
-        <h1 >{blogger?.header}</h1>
-        <p>{blogger?.text}</p>
-        <p> {blogger?.listext1}</p>
+        <h1 >{userData?.header}</h1>
+        <p>{userData?.text}</p>
+        <p> {userData?.listext1}</p>
+        <Image  priority={true}   width={800} height={300} src={userData.img} alt="avatar" className={Detailscss.image} />
+           
+ 
+        <p>{userData?.text1}</p>
+        <p>{userData?.text2}</p>
+        <h5>{userData?.soru}</h5>
+        <p>{userData?.text3}</p>
 
-        <p>{blogger?.text1}</p>
-        <p>{blogger?.text2}</p>
-        <h5>{blogger?.soru}</h5>
-        <p>{blogger?.text3}</p>
 
 
-
-        <h5>{blogger?.soru1}</h5>
-        <p>{blogger?.text4}</p>
-        <p>{blogger?.text4_5}</p>
+        <h5>{userData?.soru1}</h5>
+        <p>{userData?.text4}</p>
+        <p>{userData?.text4_5}</p>
 
         
 
-        <p>{blogger?.text5}</p>
+        <p>{userData?.text5}</p>
 
  
 
-        <p>{blogger?.text6}</p>
-        <h5>{blogger?.soru2}</h5>
+        <p>{userData?.text6}</p>
+        <h5>{userData?.soru2}</h5>
 
-        <p>{blogger?.text6_5}</p>
+        <p>{userData?.text6_5}</p>
 
 
 
-        <p>{blogger?.text7}</p>
-        <h2 className={Detailscss.h2}>{blogger?.sonuc}</h2>
-        <p>{blogger?.text8}</p>
+        <p>{userData?.text7}</p>
+        <h2 className={Detailscss.h2}>{userData?.sonuc}</h2>
+        <p>{userData?.text8}</p> 
         <p className={Detailscss.not}><strong>Fotoğraflar için üzgünüm yakın zamanda görseller ve live seçeneği ile blog sayfam zenginleşicektir.</strong></p>
         </div>
 
@@ -116,30 +94,24 @@ import data from '../api/blogs/data.js'
 
   export default Details
 
+export const getStaticPaths = async () =>{
+  const res = await fetch(`http://localhost:3000/api/blogs`);
+  const blogs = await res.json();
+  const ids = blogs.map((blog) => blog.id);
+  const paths = ids.map((id)=> ({params:{id: id.toString()}}));
+  return{
+    paths,
+    fallback:false,
+  };
+};
 
-export const getStaticProps = async () => {
-  const  res = await fetch(`http://localhost:3000/api/blogs`);
-  const detailData = await res.json();
+export const getStaticProps = async (context) =>{
+  const res = await fetch(`http://localhost:3000/api/blogs/${context.params.id}`);
+  const userData = await res.json();
 
   return{
     props:{
-      detailData,
-    },
-  };
-
-};
-
-
-export const getStaticPaths = async () => {
-  const  res = await fetch(`http://localhost:3000/api/blogs`);
-  const data = await res.json();
-  const ids = data.map((blogger) => blogger.id);
-  const paths =ids.map((id)=> ({params:{id: id.toString()}}));
-  return{
-    paths,
-    fallback: false,
-  };
-
-};
-
-
+      userData,
+    }
+  }
+}

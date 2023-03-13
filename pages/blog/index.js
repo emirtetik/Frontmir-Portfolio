@@ -9,7 +9,6 @@ import { useRouter } from 'next/router'
 import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {MdAttachEmail} from "react-icons/md"
 import Blogcss from "../../styles/Blog.module.css"
-import dynamic from "next/dynamic";
 
 
 const  Blog = ({data}) => {
@@ -88,7 +87,8 @@ const  Blog = ({data}) => {
    <div  className={Blogcss.card}>
         <div className={Blogcss.card_img}>
 
-     <Image priority className={Blogcss.img} src={blog.img} alt="proje" width={700} height={150}/>
+     <Image priority={true} className={Blogcss.img} src={blog.img} alt="proje" width={700} height={150} placeholder="blur"
+        blurDataURL={blog.img}/>
      </div>
       
   <h3 className={Blogcss.blog_title} >{blog.header}</h3>
@@ -125,17 +125,16 @@ const  Blog = ({data}) => {
     </Layout>
   )
 }
-export default dynamic (() => Promise.resolve(Blog), {ssr: false})
+export default Blog;
 
-export const getStaticProps =async () => {
-     const res = await  fetch("http://localhost:3000/api/blogs");
-    
-     const data = await res.json();
+export const getStaticProps = async (context) => {
+  const res = await fetch("http://localhost:3000/api/blogs");
+  const data = await res.json();
 
-     return { 
-      props:{
-        data,
-      },
-     }
-};
+  return{
+    props:{
+      data,
+    }
+  }
+}
 

@@ -275,7 +275,8 @@ data-aos-easing="ease-in-sine" className='data-text1'>blog ve
 
 <div data-aos="zoom-in" className="card">
 <div className="card-img-holder">
-<Image priority   src={ayvaz1} alt='image' width={800} height={300}/>
+<Image priority={true} placeholder="blur"
+        blurDataURL={'/images/avatar3.png'}  src={ayvaz1} alt='image' width={800} height={300}/>
 
 </div>
 <h3 className="blog-title">"AyvazCamping Work"</h3>
@@ -296,7 +297,8 @@ Html-Css-Js
 
 <div className="card" data-aos="zoom-in">
 <div className="card-img-holder">
-<Image priority   src={kuofor1} alt='image' width={800} height={300}/>
+<Image priority={true}   src={kuofor1} alt='image' width={800} height={300} placeholder="blur"
+        blurDataURL={'/images/kuofor1.png'}/>
 
 </div>
 <h3 className="blog-title">"React Kuofor-app Work"</h3>
@@ -316,7 +318,8 @@ React
 
 <div className="card" data-aos="zoom-in">
 <div className="card-img-holder">
-<Image priority src={nodejs} alt='proje' width={800} height={300}   />
+<Image priority={true} src={nodejs} alt='proje' width={800} height={300}  placeholder="blur"
+        blurDataURL={'/images/nodejs.png'} />
 
 </div>
 <h3 className="blog-title">"Node.js Nedir" </h3>
