@@ -7,7 +7,7 @@ import Meta from "../../components/Meta"
 import Image from 'next/image'
 import Footer from '@/components/Footer'
 import Layout from '@/components/layout/Layout'
-import data from '../../data.js'
+import {data} from '../../data.js'
 
 
 
@@ -109,6 +109,7 @@ export const getStaticProps = async (context) =>{
 
   return{
     props:{
+      data,
       userData,
     }
   }

@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {MdAttachEmail} from "react-icons/md"
 import Blogcss from "../../styles/Blog.module.css"
-
+import {data} from "../.././data.js"
 
 const  Blog = ({data}) => {
 
