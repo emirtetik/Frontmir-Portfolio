@@ -92,25 +92,28 @@ import {data} from '../../data.js'
 
   export default Details
 
-export const getStaticPaths = async () =>{
-  const res = await fetch(`http://localhost:3000/api/blogs`);
-  const blogs = await res.json();
-  const ids = blogs.map((blog) => blog.id);
-  const paths = ids.map((id)=> ({params:{id: id.toString()}}));
-  return{
+ 
+export const getStaticPaths = async () => {
+  const ids = data.map(({ id }) => id);
+  const paths = ids.map((id) => ({ params: { id: id.toString() } }));
+  return {
     paths,
-    fallback:false,
+    fallback: false,
   };
 };
 
-export const getStaticProps = async (context) =>{
-  const res = await fetch(`http://localhost:3000/api/blogs/${context.params.id}`);
-  const userData = await res.json();
-
-  return{
-    props:{
+export const getStaticProps = async (context) => {
+  const userData = data[context.params.id];
+  return {
+    props: {
       data,
       userData,
-    }
-  }
-}
+    },
+  };
+};
+
+
+
+
+
+
