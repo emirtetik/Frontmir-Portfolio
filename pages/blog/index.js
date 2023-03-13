@@ -128,9 +128,8 @@ const  Blog = ({data}) => {
 export default Blog;
 
 export const getStaticProps = async (context) => {
-  const res = await fetch("http://localhost:3000/api/blogs");
-  const data = await res.json();
-
+  // const res = await fetch("http://localhost:3000/api/blogs");
+  // const data = await res.json();
   return{
     props:{
       data,

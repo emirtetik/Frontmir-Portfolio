@@ -103,7 +103,8 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
-  const userData = data[context.params.id];
+  const userData = data[context.params.id - 1]; 
+
   return {
     props: {
       data,
