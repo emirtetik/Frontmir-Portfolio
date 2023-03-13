@@ -1,5 +1,4 @@
-import React, { useEffect,useState } from 'react'
-import { useRouter } from 'next/router'
+import React from 'react'
 import {MdAttachEmail} from "react-icons/md"
 import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {SiFiverr} from "react-icons/si"
@@ -14,7 +13,6 @@ import data from '../../data.js'
 
 
  const Details = ({userData}) => {
-
     return (
         <Layout>
              <Meta 
