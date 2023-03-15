@@ -382,7 +382,7 @@
        
 .card{
 width: 40rem;
-height: 22rem;
+height: auto;
 background: rgb(0, 0, 0);
 border-radius: 1.5rem;
 padding: 1.5rem;
@@ -393,11 +393,10 @@ border-left: 5px  #aa0808 outset;
 @media (min-width: 481px) and (max-width: 767px) {
 .card{
   width: 28rem;
-  height: 21rem;
+  height: auto;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  border-bottom: 10px solid #000000;
-  border-left: 5px  #000000 outset;
+
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -406,8 +405,7 @@ border-left: 5px  #aa0808 outset;
   height: auto;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  border-bottom: 10px solid #000000;
-  border-left: 5px  #000000 outset;
+
 }
     
 .text h2{
