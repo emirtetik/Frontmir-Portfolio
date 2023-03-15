@@ -52,13 +52,19 @@ import {data} from '../../data.js'
            
  
         <p>{userData?.text1}</p>
+        <Image  priority={true}   width={800} height={300} src={userData.img1} alt="avatar" className={Detailscss.image} />
+
         <p>{userData?.text2}</p>
         <h5>{userData?.soru}</h5>
+
         <p>{userData?.text3}</p>
+        <Image  priority={true}   width={800} height={300} src={userData.img3} alt="avatar" className={Detailscss.image} />
 
 
 
         <h5>{userData?.soru1}</h5>
+        <Image  priority={true}   width={800} height={300} src={userData.img4} alt="avatar" className={Detailscss.image} />
+
         <p>{userData?.text4}</p>
         <p>{userData?.text4_5}</p>
 
@@ -66,6 +72,7 @@ import {data} from '../../data.js'
 
         <p>{userData?.text5}</p>
 
+        <Image  priority={true}   width={800} height={300} src={userData.img5} alt="avatar" className={Detailscss.image} />
  
 
         <p>{userData?.text6}</p>
@@ -73,6 +80,7 @@ import {data} from '../../data.js'
 
         <p>{userData?.text6_5}</p>
 
+        <Image  priority={true}   width={800} height={300} src={userData.img6} alt="avatar" className={Detailscss.image} />
 
 
         <p>{userData?.text7}</p>

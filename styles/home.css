@@ -770,9 +770,13 @@ background-color: #000000;
           font-size: 5px;	
 	  }
 	.images{
-		width: 80px;	
+			width: 100px;	
+			height: 100px;
 	}
-
+	.hero-box{
+		grid-gap: 50px;
+		box-shadow: -10px 25px 20px white;
+	 }
 	.hero-text{
 		width: 100px;
 	}
@@ -808,7 +812,7 @@ background-color: #000000;
 }
 
 	.tx{
-		margin: 1rem;
+		margin: 2rem 6rem 3rem 6rem;
 		line-height: 20px;
 		font-size: 2vh;
          text-indent: 20px;
@@ -909,9 +913,8 @@ background-color: #000000;
 		   border-radius: 5%;
 	  }
 	.images{
-		width: 80px;	
+		width: 100px;	
 		height:100px;
-		margin-right: 20px;
 	}
     .images:hover{
 	box-shadow: none;
