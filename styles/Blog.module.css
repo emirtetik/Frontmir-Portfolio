@@ -396,6 +396,12 @@ border-left: 5px  #aa0808 outset;
   padding: 1.5rem;
 
 }
+
+.btn{
+
+  margin: 24px 2px 4px 6px;
+}
+
     
 .text h2{
   font-size: 2.5vh;

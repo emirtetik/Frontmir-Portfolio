@@ -135,13 +135,7 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
   
-    /* .image{
-     max-width: 350px;
-     box-shadow: none; 
-     margin-top: 2rem;
-     height: 13rem;
-     padding-top: -1rem;
-  } */
+   
   .container_detail h1 {
      font-size: 22px;
   }
