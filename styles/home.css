@@ -71,8 +71,7 @@ background-color: #000000;
 }
 
 .welcome h1{
-	font-family: 'Press Start 2P', cursive;
-	font-size: 3vh;
+	font-size: 5vh;
     color: #ffffff;
 	padding: 20px;
 	width: 100%;
@@ -83,7 +82,6 @@ background-color: #000000;
   .changing {
 	display: grid;
 	z-index: 1;
-	font-family: 'Bree Serif', serif;
 	position: absolute;
 	overflow: hidden;
 	width: 100%;
@@ -173,14 +171,14 @@ background-color: #000000;
 .front{
 	margin-bottom:1rem ;
 	color: rgb(255, 255, 255);
-    font-family: 'Press Start 2P', cursive;
-	font-size: 3vh;
+
+	font-size: 2.5vh;
 }
 .name{
 	margin-bottom:1rem ;
 	color: rgb(255, 255, 255);
 	font-size: 3vh;
-	font-family: 'Press Start 2P', cursive;
+
 }
 .icon-box{
 	display: flex;
@@ -201,7 +199,6 @@ background-color: #000000;
 }
 .play{
 	display: grid;
-    font-family: 'Press Start 2P', cursive;
 	transform: translateX(-30%) rotate(10deg);
 
  }
@@ -225,7 +222,6 @@ background-color: #000000;
 	color: white;
 	text-transform: uppercase;
 	cursor: pointer;
-	font-family: 'Press Start 2P', cursive;
 	transform: translateX(-30%)  rotate(10deg);
 
   }
@@ -303,7 +299,6 @@ background-color: #000000;
 		font-weight: bolder;
 		border-bottom:1px solid #ffffff;
 		width: fit-content;
-		font-family: 'Bree Serif', serif;
 		transition: 2s;
 
 	}
@@ -315,7 +310,6 @@ background-color: #000000;
 		line-height: 30px;
 		font-size: 2vh;
 		color: #fff;
-	    font-family: 'Bree Serif', serif;
 
          text-indent: 40px;
 		 margin-right: 5rem;
@@ -366,7 +360,6 @@ background-color: #000000;
 	color: #000000;
 	border: 0.08em solid rgb(36, 0, 0);
 	box-shadow: 0 0.4em 0.1em 0.019em rgb(36, 0, 0);
-	font-family: 'Bree Serif', serif;
 
   }
   
@@ -500,13 +493,11 @@ background-color: #000000;
 	align-items: center;
 	justify-content: center;
 	font-size: 2.2vh;
-	font-family: 'Bree Serif', serif;
 	color: #fff;
   }
 
   .capabilities h3{
 	padding: 2rem;
-	font-family: 'Press Start 2P', cursive;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -516,7 +507,6 @@ background-color: #000000;
   }
 .capabilities li{
 	color: #fff;
-	font-family: 'Bree Serif', serif;
 
 }
 .capabilities ul{
@@ -595,7 +585,6 @@ background-color: #000000;
 	color: #ffffff;
 	padding: 1rem 0;
 	font-size: 3vh;
-	font-family: 'Bree Serif', serif;
 
   }
   
@@ -603,15 +592,12 @@ background-color: #000000;
 	padding: 1rem 0;
 	color: burlywood;
 	font-size: 1.5vh;
-	font-family: 'Bree Serif', serif;
 
   }
   
   .blog-time{
 	font-size: 1.3vh;
 	color:burlywood;
-	font-family: 'Bree Serif', serif;
-
   }
   
   .options{
@@ -619,7 +605,6 @@ background-color: #000000;
 	align-items: center;
 	justify-content: space-between;
 	font-size: 1.4vh;
-	font-family: 'Bree Serif', serif;
 
   }
   
@@ -639,7 +624,6 @@ background-color: #000000;
 	  background: #000000;
 	  box-shadow: 3px 3px #fff;
 	  cursor: pointer;
-	font-family: 'Bree Serif', serif;
 
 	}
 	

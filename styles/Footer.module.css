@@ -26,7 +26,6 @@
 .game h6 {
     position: absolute;
     color: #3D0000;
-    font-family: 'Press Start 2P', cursive;
     font-size: 40px;
     letter-spacing: 5px;
     text-shadow: -2px 0 0 #7e1313, -4px 0 0 #df4a42, 2px 0 0 #91fcfe, 4px 0 0 #4405fc;
@@ -73,7 +72,6 @@
     color: #fffcfc;
     margin-bottom: 20px;
     text-decoration: underline;
-    font-family: 'Press Start 2P', cursive !important;
 
 
   }
@@ -81,7 +79,6 @@
     list-style: none;
     color:#a7a5a5 ;
     font-size: 20px;
-font-family: 'Bree Serif', serif;
 
   }
   .contact_item{
@@ -89,7 +86,6 @@ font-family: 'Bree Serif', serif;
     color:#a7a5a5 ;
     font-size: 20px;
     border-bottom:3px solid #3D0000;
-font-family: 'Bree Serif', serif;
 
   }
   .contact_item:hover{
@@ -110,7 +106,6 @@ font-family: 'Bree Serif', serif;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.5s;
-    font-family: 'Monoton', cursive;
     -webkit-text-stroke: 0px #000000;
     text-shadow: 
        0px 10px 0px #a10000,
@@ -151,18 +146,15 @@ font-family: 'Bree Serif', serif;
   .footer_list{
     display: flex;
     flex-direction: column;
-font-family: 'Bree Serif', serif;
 
     gap: 20px;
   }
   .footer_list .a{
     text-decoration: none;
-    
   }
   .footer_list .p {
     color: #a7a5a5;
     max-width:210px ;
-    font-family: 'Bree Serif', serif;
 
     font-size: 20px;
   }
@@ -199,7 +191,6 @@ font-family: 'Bree Serif', serif;
   }
   .copyright{
     color: rgb(218, 0, 0);
-    font-family: 'Bree Serif', serif;
 
   }
   .footer_icon_item{

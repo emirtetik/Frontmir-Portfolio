@@ -39,7 +39,6 @@
     transition: all 1s;
     max-width: 400px;
     font-weight: bold;
-    font-family: 'Bree Serif', serif;
 
    }
    
@@ -65,13 +64,11 @@
   margin: 3rem;
   font-size: 3vh ;
   color: #000000;
-	font-family: 'Press Start 2P', cursive;
 }
 .h1{
     margin-bottom: 2rem;
     font-size: 3vh ;
     color: #000000;
-      font-family: 'Press Start 2P', cursive;
 }
 
 .text p{
@@ -105,7 +102,6 @@
   border-top: 2px dashed #a7a4a4;
   border-bottom: 2px dashed #a7a4a4;
   text-align: center;
-  font-family: 'Bree Serif', serif;
    letter-spacing: 2px;
   font-size: 15px;
   line-height: 19px;
@@ -264,7 +260,6 @@
   .text h1{
     font-size: 3vh ;
     color: #000000;
-    font-family: 'Press Start 2P', cursive;
   }
   .text h2{
     font-size: 2vh;
@@ -318,29 +313,25 @@
 
 .blog_title{
    color: white; 
-   font-family: 'Bree Serif', serif;
-
-  font-size: 1.5rem;
+ padding: 4px 0px 0px 4px;
+  font-size: 1.2rem;
 }
 
 .blog_description{
   padding: 1rem 0;
   color:burlywood;
   font-size: 1rem;
-  font-family: 'Bree Serif', serif;
 
 }
 
 .blog_time{
   font-size: .8rem;
-  font-family: 'Bree Serif', serif;
 
   color: burlywood;
 }
 
 .blog_option{
   font-size: 1rem;
-  font-family: 'Bree Serif', serif;
 
  
 }
@@ -348,7 +339,6 @@
 .blog_option span{
   font-weight: 600;
   color: #ffffff;
-  font-family: 'Bree Serif', serif;
 
 }
 .blog_option a {
@@ -356,7 +346,6 @@
 }
 
 .btn{
-  font-family: 'Bree Serif', serif;
 
     font-size: 0.8rem;
     color: #fff;

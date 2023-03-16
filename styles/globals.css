@@ -1,13 +1,23 @@
 
 @import url(./home.css);
 @import url(./nav.css);
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gajraj+One&family=Inter:wght@600&family=Monoton&display=swap');
-p{
-  font-family: 'Bree Serif', serif;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gajraj+One&family=Inter:wght@600&family=Monoton&display=swap'); */
+
+h1,h2,h3,h4,h5,h6,.restart{
+  font-family: 'Press Start 2P', cursive;
+}
+p,ul{
+  font-family: 'Concert One', cursive;
+}
+Link{
+  font-family: 'Monoton', cursive;
+}
+a,button{
+  font-family: 'Monoton', cursive;
 }
 *{
   margin: 0;

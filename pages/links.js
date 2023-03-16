@@ -20,8 +20,7 @@ function Links() {
         blurDataURL={'/images/avatar3.png'}/>
            
 
-     <div className={Linkcss.profile_name}>Frontend Developer</div>
-     <p className={Linkcss.profile_text}>Web Teknolojileri Üreticisi</p>
+     <div className={Linkcss.profile_name}>Web Teknolojileri Üreticisi</div>
 
                      {/* <!-- Links--> */}
       <div className={Linkcss.container}>               

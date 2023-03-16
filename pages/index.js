@@ -209,7 +209,6 @@ değer veriyorum.
 <p className="list-title ">Dev Araçlarım:</p>
 <ul>
 <li>Figma</li>
-<li>Sketch</li>
 <li>Font Awesome</li>
 </ul>
 
@@ -282,7 +281,7 @@ data-aos-easing="ease-in-sine" className='data-text1'>blog ve
         blurDataURL={'/images/avatar3.png'}  src={ayvaz1} alt='image' width={800} height={300}/>
 
 </div>
-<h3 className="blog-title">"AyvazCamping Work"</h3>
+<h3 className="blog-title">AyvazCamping Work</h3>
 <span className="blog-time">9 Ekim 2022'de yüklendi.</span>
 <p className="description">
 Hafta sonunu iyi geçirebiliceğin Camping Web Teması. 
@@ -304,7 +303,7 @@ Html-Css-Js
         blurDataURL={'/images/kuofor1.png'}/>
 
 </div>
-<h3 className="blog-title">"React Kuofor-app Work"</h3>
+<h3 className="blog-title">React Kuofor-app Work</h3>
 <span className="blog-time">14 Aralık 2022'de yüklendi.</span>
 <p className="description">
 Dağınık görüntünden kurtulmak için gidebiliceğin Kuofor Web Teması.
@@ -325,7 +324,7 @@ React
         blurDataURL={'/images/nodejs.png'} />
 
 </div>
-<h3 className="blog-title">"Node.js Nedir" </h3>
+<h3 className="blog-title">Node.js Nedir?</h3>
 <span className="blog-time">1 Şubat 2023'de yüklendi.</span>
 <p className="description">
 Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz. 

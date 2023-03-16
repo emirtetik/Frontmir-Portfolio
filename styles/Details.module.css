@@ -29,7 +29,6 @@
     border-top: 2px dashed #a7a4a4;
     border-bottom: 2px dashed #a7a4a4;
     text-align: center;
-    font-family: 'Bree Serif', serif;
      letter-spacing: 2px;
     font-size: 15px;
     line-height: 19px;
@@ -90,7 +89,6 @@
   }
   .container_detail h1 {
     color: rgb(0, 0, 0);
-      font-family: 'Press Start 2P', cursive;
   }
   .container_detail p{
     max-width:600px;
@@ -98,7 +96,6 @@
     font-size: 20px;
     text-indent: 30px;
     line-height: 30px;
-      font-family: 'Bree Serif', serif;
   
   }
 
@@ -116,7 +113,6 @@
   .h2{
     color: #000000;
     font-size: 20px;
-    font-family: 'Press Start 2P', cursive;
   }
   .not strong{
     color: #000000;
