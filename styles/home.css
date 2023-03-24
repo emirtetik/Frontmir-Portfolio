@@ -186,12 +186,14 @@ background-color: #000000;
 
 }
 .icon-item{
-	color: rgb(173, 13, 13);
+	color: #ff0000;
+
 	width: 100%;
 	height: 40px;
 }
 .icon-item:hover{
-	color: #ffffff;
+	color: rgb(255, 255, 255);
+
 }
 .container-play{
 	display: grid;

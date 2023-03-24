@@ -38,7 +38,7 @@ const  Blog = ({data}) => {
         <span className={Blogcss.sidebarTitle}>Hakkımda</span>
        
         <p>
-          Güzel ve basit şeyler kodluyorum ve yaptığım işi seviyorum.
+          Güzel ve basit şeyler kodluyorum, yaptığım işi seviyorum.
         </p>
       </div>
     
