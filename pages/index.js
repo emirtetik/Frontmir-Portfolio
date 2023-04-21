@@ -136,7 +136,7 @@ data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
 
 <h1 className='hi'>Merhaba ben Emir!</h1>
 
-<p className='tx'>Yaklaşık 1 sene önce hosting şirketi olan bir tanıdığımın yanında çalışmaya ve eğitim almaya başladım.
+<p className='tx'>Yaklaşık 1 sene önce hosting şirketin çalışmaya ve eğitim almaya başladım.
 Bu işe başladığım zaman sitelerin ön yüzlerinin nasıl yapıldığı ve front end developerın ne olduğuna dair en ufak bir fikrim yoktu. 
 Daha sonra yaptığım işin detaylarına girdikçe benim asıl keyif alabileceğim mesleğin front end developer olmak olduğunun farkına 
 vardım. Bilgisayar başında bir şeyler araştırmak bu araştırmaları
@@ -155,8 +155,8 @@ için sosyal medya hesaplarımdan bana ulaşabilirsiniz. </p>
 </div>
 <div className='.resume-cv'>
 
-<a href="emir tetik.pdf"
-download={"emir tetik.pdf"}
+<a href="emirtetik.cv.pdf"
+download={"emirtetik.cv.pdf"}
 > <button className='resume'>
 <span className='resume-span'>
 CV İndir!

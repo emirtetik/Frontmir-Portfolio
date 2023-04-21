@@ -31,6 +31,8 @@ function Links() {
         <div className={Linkcss.link_container} ><a className={Linkcss.links} href="mailto:emirtetik.41@hotmail.com">E-mail</a></div>
         <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://wa.me/905466096231">Watsapp</a></div>
         <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://www.voxnet.com.tr/">Hosting</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://www.emirfy.com/">Freelancer</a></div>
+
         <div className={Linkcss.linktree}>
           Front-mir
         </div>
