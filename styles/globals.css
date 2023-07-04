@@ -2,20 +2,32 @@
 @import url(./home.css);
 @import url(./nav.css);
 
+
+:root {
+   --primary-color:#D9E4EA;
+   --secondary-color:#354A54;
+   --third-color:#F2962F;
+   --dark-color:black;
+   --white-color:white;
+
+}
+
 h1,h2,h3,h4,h5,h6,.restart{
   font-family: 'Press Start 2P', cursive;
 }
 p,ul{
-  font-family: 'Concert One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+/*  */
 }
 Link{
   font-family: 'Monoton', cursive;
 }
 a,button{
-  font-family: 'Monoton', cursive;
+  font-family:monospace;
 }
 .mir{
   font-family: 'Josefin Sans', sans-serif;
+
 
 }
 *{
@@ -24,14 +36,14 @@ a,button{
   box-sizing: border-box;
 }
 ::-webkit-scrollbar{
-width: 1rem;
+width: 0.6rem;
 }
 ::-webkit-scrollbar-track{
-background: rgb(0, 0, 0);
+background: var(--third-color);
 border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb{
-background-color: #3D0000;
+background-color: var(--secondary-color);
 border-radius: 30px;
 border: 2px dashed wheat;
 

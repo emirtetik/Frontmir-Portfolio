@@ -1,9 +1,8 @@
 
 .blog{  
  width: 100%;
-  background: black;
+  background: var(--primary-color);
   height: auto;
-  padding-top: 5%;
 }
  
     
@@ -13,10 +12,9 @@
     border-radius: 30px;
     display: grid;
     row-gap: 3rem;
-    background-color: #3D0000;
-    box-shadow: rgb(46, 0, 0) 5px 5px, rgb(56, 0, 0)  10px 10px, rgb(61, 0, 0)  15px 15px, rgb(76, 0, 0)  20px 20px, rgb(86, 0, 0)  25px 25px;
+    background-color: var(--secondary-color);
     padding-bottom: 5rem;
-    border: 10px solid #3D0000;
+    border: 10px solid var( --third-color);
   }
                            /* ---input--- */
   .search{
@@ -32,7 +30,7 @@
     margin: 0;
     padding: 0;
     color: #000000;
-    outline: 7px solid #3D0000;
+    outline: 7px solid var(--white-color);
     height: 30px;
     font-size: 17px;
     text-align: center;
@@ -82,7 +80,7 @@
   margin: 30px;
   position: fixed;
   margin-top: 50px;
-  background-color: #1f0404;
+  background-color: var(--secondary-color);
   border-radius: 30px;
   width: 300px;
   height: 450px;
@@ -105,7 +103,7 @@
    letter-spacing: 2px;
   font-size: 15px;
   line-height: 19px;
-  color: #8d0f0f;
+  color: var(--dark-color);
   font-weight: 600;
 }
 
@@ -289,14 +287,8 @@
   background: rgb(0, 0, 0);
   border-radius: 1.5rem;
   padding: 1.5rem;
-  border-bottom: 10px solid #b11313;
-  border-left: 5px  #b11313 outset;
 }
-.card:hover{
-  border-bottom: 10px solid #ffffff;
-	border-left: 5px  #ffffff outset;
-    padding: 1rem;
-}
+
 .card_img{
   width: 100%;
 
@@ -319,7 +311,7 @@
 
 .blog_description{
   padding: 1rem 0;
-  color:burlywood;
+  color:var(--third-color);
   font-size: 1rem;
 
 }
@@ -327,7 +319,7 @@
 .blog_time{
   font-size: .8rem;
 
-  color: burlywood;
+  color: var(--third-color);
 }
 
 .blog_option{
@@ -353,7 +345,7 @@
     padding: 5px 10px;
     border-radius: 10px;
     border: 2px solid #fff;
-    background: #3D0000;
+    background: var(--secondary-color);
     box-shadow: 3px 3px #fff;
     cursor: pointer;
     margin: 0px 0px 0px 10px ;
@@ -375,8 +367,6 @@ height: auto;
 background: rgb(0, 0, 0);
 border-radius: 1.5rem;
 padding: 1.5rem;
-border-bottom: 10px solid #aa0808;
-border-left: 5px  #aa0808 outset;
 }
 }
 @media (min-width: 481px) and (max-width: 767px) {

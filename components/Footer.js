@@ -52,10 +52,8 @@ function Footer() {
            <div>
            <h5 className={Footercss.footer_title}>İletişim</h5>
            <ul className={Footercss.footer_list}>
-          <a className={Footercss.a} href="mailto:info@frontmir.com"> <li className={Footercss.contact_item}>info@frontmir.com</li></a>
-          <br />
-          <li  className={Footercss.logo} data-text="logo"> 
-              <Link className={Footercss.logo_link} href="/"> Front<strong className='mir'>-Mir</strong></Link></li>
+          <a className={Footercss.a} href="mailto:dev@emirfy.com"> <li className={Footercss.contact_item}>dev@emirfy.com</li></a>
+       
            </ul>
            </div>         
       </div>
@@ -81,7 +79,7 @@ function Footer() {
           <a className={Footercss.footer_icon} href="https://www.fiverr.com/emirtetik?up_rollout=true"><SiFiverr className={Footercss.footer_icon_item} /></a>
           </li>
           <li  className={Footercss.li}>
-          <a className={Footercss.footer_icon} href="mailto:emirtetik.41@hotmail.com"><MdAttachEmail className={Footercss.footer_icon_item} /></a>
+          <a className={Footercss.footer_icon} href="mailto:dev@emirfy.com"><MdAttachEmail className={Footercss.footer_icon_item} /></a>
           </li>
           <li  className={Footercss.li}>
           <a className={Footercss.footer_icon} href="https://wa.me/905466096231"><BsFillPhoneFill className={Footercss.footer_icon_item}/></a>

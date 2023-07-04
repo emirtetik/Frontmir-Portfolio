@@ -1,6 +1,5 @@
 .link{
     background-color: #000000;
-    
     font-size: 15px;
    letter-spacing: 2px;
    color: rgb(255, 255, 255);
@@ -8,7 +7,6 @@
    padding-top: 6.5%;
    background-image: url("../public/images/graph-1.png");
    background-size: cover;
-  padding-top: 8rem;
    background-repeat: no-repeat;
    height: auto;
   
@@ -25,7 +23,7 @@
     text-align: center;
     margin-top: 20px;
      padding: 1em 2em;
-     border:3px solid #3D0000 ;
+     border:3px solid var(--secondary-color) ;
      box-shadow: 0.3em 0.3em ;
      width: 300px;
      display: block;
@@ -40,7 +38,7 @@
   .links:hover {
     transform: translate(0.30em, 0.30em);
     box-shadow: 0.20em 0.20em;
-    background-color: #3D0000;
+    background-color: var(--secondary-color);
    }
    .profile_img {
     width: auto;
@@ -51,7 +49,7 @@
     border-radius: 10%;
     transition: 2s;
     padding: 10px;
-	  box-shadow: -10px 10px 0px #770000;
+	  box-shadow: -10px 10px 0px var(--secondary-color);
     }  
   
   .profile_name {

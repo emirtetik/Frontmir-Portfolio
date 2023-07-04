@@ -1,10 +1,9 @@
 
 .footer{
-    border-top: 3px solid #3D0000;
     padding-block: 50px;
     position: absolute;
     width: 100%;
-    background: #000000;
+    background: var(--secondary-color);
   }
   @keyframes floater {
     0%, 100% {
@@ -25,8 +24,8 @@
   }
 .game h6 {
     position: absolute;
-    color: #3D0000;
-    font-size: 40px;
+    color: var(--third-color);
+    font-size: 30px;
     letter-spacing: 5px;
     text-shadow: -2px 0 0 #7e1313, -4px 0 0 #df4a42, 2px 0 0 #91fcfe, 4px 0 0 #4405fc;
     animation: blink 2s steps(4, start) infinite;
@@ -55,12 +54,11 @@
  
  
   .footer_container{
-   width: 60%;
+   width: 80%;
     margin: auto;
     padding: 20px 10px;
-    box-shadow: rgb(46, 0, 0) 5px 5px, rgb(56, 0, 0)  10px 10px, rgb(61, 0, 0)  15px 15px, rgb(76, 0, 0)  20px 20px, rgb(86, 0, 0)  25px 25px;
 
-  background: #000000;  
+  background: var(--secondary-color);  
   }
   .footer_top{
     display: grid;
@@ -68,8 +66,8 @@
     row-gap:10px;
   }
   .footer_title{
-    font-size: 15px;
-    color: #fffcfc;
+    font-size:15px;
+    color: var(--white-color);
     margin-bottom: 20px;
     text-decoration: underline;
 
@@ -77,76 +75,28 @@
   }
   .services_item{
     list-style: none;
-    color:#a7a5a5 ;
+    color:#b9b9b9 ;
     font-size: 20px;
 
   }
   .contact_item{
     list-style: none;
-    color:#a7a5a5 ;
-    font-size: 20px;
-    border-bottom:3px solid #3D0000;
+    color:#b9b9b9 ;
+    font-size: 22px;
+    border-bottom:3px solid var(--white-color);
 
   }
   .contact_item:hover{
-     background-color: #3D0000;
+     background-color: var(--dark-color);
      transition: 0.6s;
   }
-  .logo {
-    font-size: 30px;
-    position: absolute;
-    width: 300px;
-    margin-top:80px;
-    list-style: none;
-
-  }
-  
-  .logo_link{
-    color: rgb(238, 238, 238);
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.5s;
-    -webkit-text-stroke: 0px #000000;
-    text-shadow: 
-       0px 10px 0px #a10000,
-      5px 15px 0px #7a0000,
-      10px 20px 0px #580000,
-      15px 25px 0px #3D0000,
-      20px 30px 5px #000000;
-    cursor: pointer;
-   }
-   
-   .logo_link:hover {
-    text-shadow: none;
-    color: #ff0000;
-  
-   
-   }
-   .mir{
-    color: #8B0000;
-   transition: all 0.5s;
-  
-   -webkit-text-stroke: 2px #ff0000;
-   text-shadow: 
-   0px -10px 0px #a10000,
-  5px -15px 0px #7a0000,
-  10px -20px 0px #580000,
-  15px -25px 0px #3D0000,
-  20px -30px 5px #000000;
-    
-  }
-  .mir:hover{
-    text-shadow: none;
-    -webkit-text-stroke: 4px #ffffff;
-   
-  }
+ 
   
   
 
   .footer_list{
     display: flex;
     flex-direction: column;
-
     gap: 20px;
   }
   .footer_list .a{
@@ -155,7 +105,6 @@
   .footer_list .p {
     color: #a7a5a5;
     max-width:210px ;
-
     font-size: 20px;
   }
   .footer_list_item{
@@ -164,14 +113,14 @@
   }
   .footer_list_item:hover{
     background-color: rgba(0,0,0,0.2);
-    color: rgb(116, 0, 0);
+    color: var(--third-color);
     width: 90px;
 
   }
   .footer_divider{
     margin-block: 25px;
     border: none;
-    border-top: 3px solid wheat;
+    border-top: 3px solid var(--white-color);
   }
   .footer_bottom{
     display: flex;
@@ -190,11 +139,11 @@
     text-decoration: none;
   }
   .copyright{
-    color: rgb(218, 0, 0);
+    color: var(--white-color);
 
   }
   .footer_icon_item{
-    color: rgb(243, 1, 1);
+    color: var(--dark-color);
     width: 20px;
     height: 20px;
 
@@ -214,28 +163,14 @@
    }
 
 
-   @media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
-    .logo{
-      font-size: 3vh;
-      position: absolute;
-      bottom: 10rem;
-      left: 50%;
-      
-    }
-  }
+  
         
         @media screen and (min-width: 320px)  and (max-width:480px) {
           .footer_container{
             width: 100%;
             margin: auto;
           }
-          .logo {
         
-            font-size: 20px;
-            width: 300px;
-            margin: 4rem;
-            padding-left: 3rem;
-          }
           .game h6{
             font-size: 20px;
           }

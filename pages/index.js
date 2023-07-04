@@ -112,11 +112,7 @@ export default function Home() {
                                             
 <section className="about">
 <div  className='title-container2  ct-1 '>
-<div data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='blob'>
-  <Image priority src="/images/graph-3.png" alt='buble' className='blob1' width={400} height={400}   />
-</div> 
+
 <span data-aos="fade-right"
 data-aos-offset="300"
 data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
@@ -155,8 +151,8 @@ için sosyal medya hesaplarımdan bana ulaşabilirsiniz. </p>
 </div>
 <div className='.resume-cv'>
 
-<a href="emirtetik.cv.pdf"
-download={"emirtetik.cv.pdf"}
+<a href="emirtetik_cv.pdf"
+download={"emirtetik_cv.pdf"}
 > <button className='resume'>
 <span className='resume-span'>
 CV İndir!
@@ -180,12 +176,7 @@ CV İndir!
 <section className="skills">
 
 <div className='title-container2'>
-<div  data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='blob'>
-  <Image priority src="/images/graph.png" alt='buble' className='blob1' width={400} height={400} />
 
-</div> 
 <span  data-aos="fade-right"
 data-aos-offset="300"
 data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
@@ -233,14 +224,19 @@ geliştirmeyi  seviyorum.
 <p className="list-title ">Dev Araçlarım:</p>
 <ul>
 <li>Visual Studio Code</li>
-<li>Github</li>
-<li>Git</li>
+<li>React Native</li>
+<li>Firebase</li>
+<li>Redux</li>
 <li>Nextjs</li>
 <li>React</li>
 <li>Bootstrap</li>
 <li>Gsap</li>
 <li>Tailwind</li>
 <li>jQuery</li>
+<li>Git</li>
+<li>Github</li>
+
+
 
 </ul>
 </div>
@@ -254,15 +250,10 @@ geliştirmeyi  seviyorum.
 
 
 
-    {/* ---------blog-------- */}
+                                            {/* ---------blog-------- */}
 <section className="blog">
 <div className='title-container2 '>
-<div data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='blob'>
-  <Image   priority  src="/images/graph-1.png" alt='buble' className='blob1' width={400} height={400} />
-
-</div> 
+ 
 <span data-aos="fade-right"
 data-aos-offset="300"
 data-aos-easing="ease-in-sine" className='data-text1'>blog ve
