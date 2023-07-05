@@ -35,7 +35,7 @@ import {data} from '../../data.js'
         <a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
         <a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
         <a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
-        <a className='icon' href="mailto:emirtetik.41@hotmail.com"><MdAttachEmail className='icon-item' /></a>
+        <a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
         </div>
       </div>
     </div>

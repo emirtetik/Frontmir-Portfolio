@@ -38,8 +38,8 @@ const router = useRouter();
       </Link>
       </li>
 
-       <li className="nav"><Link prefetch={false} className={router.pathname == "/art" ? "active" : ""} onClick={closeMenu}   href="/art"><ImArrowRight className="arrow"/>
-           Sanat
+       <li className="nav"><Link prefetch={false} className={router.pathname == "/game" ? "active" : ""} onClick={closeMenu}   href="/game"><ImArrowRight className="arrow"/>
+           Game
        </Link></li>
 
        <li className="nav"><Link prefetch={false} className={router.pathname == "/blog" ? "active" : ""} onClick={closeMenu}  href="/blog"><ImArrowRight className="arrow"/>

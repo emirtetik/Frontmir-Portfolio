@@ -24,7 +24,7 @@ function Footer() {
            <ul className={Footercss.footer_list}>
 
            <Link  className={Footercss.a} href="/"><li className={Footercss.footer_list_item}><ImArrowRight className={Footercss.arrow}/>Ben Kimim?</li></Link>
-           <Link  className={Footercss.a} href="/art"><li className={Footercss.footer_list_item}><ImArrowRight className={Footercss.arrow}/> Art</li></Link>
+           <Link  className={Footercss.a} href="/game"><li className={Footercss.footer_list_item}><ImArrowRight className={Footercss.arrow}/> Art</li></Link>
            <Link className={Footercss.a}  href="/blog"><li className={Footercss.footer_list_item}><ImArrowRight className={Footercss.arrow}/> Blog</li></Link>
            <Link className={Footercss.a}  href="/links"><li className={Footercss.footer_list_item}><ImArrowRight className={Footercss.arrow}/> Links</li></Link>
 

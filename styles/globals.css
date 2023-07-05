@@ -2,7 +2,11 @@
 @import url(./home.css);
 @import url(./nav.css);
 
-
+*,html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
    --primary-color:#D9E4EA;
    --secondary-color:#354A54;

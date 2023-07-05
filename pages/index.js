@@ -80,7 +80,7 @@ export default function Home() {
 <a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
 <a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
 <a className='icon' href="https://www.fiverr.com/emirtetik?up_rollout=true"><SiFiverr className='icon-item' /></a>
-<a className='icon' href="mailto:emirtetik.41@hotmail.com"><MdAttachEmail className='icon-item' /></a>
+<a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
 </div>
 </div>
 
