@@ -15,12 +15,12 @@ import ayvaz1 from "../public/images/ayvaz1.png"
 import kuofor1 from "../public/images/kuofor1.png"
 import nodejs from "../public/images/nodejs.png"
 import responsive from "../public/images/responsive.png"
-
+import MarkdownAbout from '@/components/MarkAbout/MarkdownAbout'
 
 
 export default function Home() {
 
-  
+
 
   useEffect(() => {
     AOS.init({duration:1000});
@@ -32,22 +32,22 @@ export default function Home() {
  const click = () =>{
      setRun(!run)
     if(run) TweenMax.from(".titles" , 1, {opacity:0,stagger:.8,x:90 })
-      
-    
+
+
  }
- 
+
 
   return (
     <Layout>
-      <Meta 
+      <Meta
       title={"Frontmir"}
       keywords={"Html,Css,JavaScript,React,Nextjs,Frontend developer,developer,portfolio,Web "}
       description={"Emir Tetik Frontend Developer Portfolio, web teknolojileri kullanıp üreten bir yazılımcı.I am a Front End Web Developer creating Front End of Websites and Web Applications."}
-      
+
       />
-      
+
     <div className='home'>
-      
+
     {/* -----hero------ */}
 <section className="banner">
 <div className="welcome">
@@ -72,26 +72,25 @@ export default function Home() {
   <Image priority width={300} height={350} className="images" src="https://res.cloudinary.com/practicaldev/image/fetch/s--B9m6Xh9W--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/wuhzze0mss8frjkzttrt.gif" alt="gif"/>
 </div>
 <div className="hero-text">
-<div className="hero-content"> 
+<div className="hero-content">
 <h4 className="name">Emir Tetik</h4>
 <h4 className="front">Frontend Developer</h4>
 <div className="icon-box">
-<a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
 <a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
 <a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
-<a className='icon' href="https://www.fiverr.com/emirtetik?up_rollout=true"><SiFiverr className='icon-item' /></a>
+<a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
 <a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
 </div>
 </div>
 
-</div>    
+</div>
 <div className="container-play">
 <h4 className='play'>
 <span className="titles">HTML</span>
 <span className="titles">CSS </span>
 <span className="titles">JAVASCRIPT</span>
 </h4>
-<div onClick={click}  className="restart">Tekrardan Başlat</div>
+<div onClick={click}  className="restart">Restart</div>
 </div>
 </div>
 <div className="scrolldown">
@@ -102,57 +101,36 @@ export default function Home() {
 </div>
 </section>
 
-<div className="triangle-container"><div className="section-triangle"></div></div>   
+<div className="triangle-container"><div className="section-triangle"></div></div>
 
 
 
 
                                             {/* -----about---- */}
 
-                                            
+
 <section className="about">
 <div  className='title-container2  ct-1 '>
 
-<span data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
+<span className='data-text1'>benim</span>
 <span  className='data-text1 '>hakkımda</span>
 </div>
 
 
+
+
 <div className="resume-container">
 
-<div className='avatar'>
-<Image priority src="/images/avatar2.png" alt="avatar" width={600} height={600} className="avatar-img"/>
-<div className='avatar-bg'></div>
+<div className="MarkdownAbout">
+<MarkdownAbout/>
 
 </div>
 
-<div  className='resume-text'>
 
-<h1 className='hi'>Merhaba ben Emir!</h1>
-
-<p className='tx'>Yaklaşık 1 sene önce hosting şirketin çalışmaya ve eğitim almaya başladım.
-Bu işe başladığım zaman sitelerin ön yüzlerinin nasıl yapıldığı ve front end developerın ne olduğuna dair en ufak bir fikrim yoktu. 
-Daha sonra yaptığım işin detaylarına girdikçe benim asıl keyif alabileceğim mesleğin front end developer olmak olduğunun farkına 
-vardım. Bilgisayar başında bir şeyler araştırmak bu araştırmaları
-deneyimlemek ve bu deneyimlerle yeni bir şey üretmeyi seviyorum. Bir yandan para kazanırken bir yandan da sevdiğim işi yapabilecek 
-olduğum için front end developer olmaya karar verdim. Bu mesleği yapabilmek için gerekli olan donanımı bir çok ücretsiz kaynaktan
-araştırma yaparak ve eğitim alarak kazanmaya çalışıyorum. Bu araştırmalara ve eğitimlere günümün yaklaşık 10 saatini ayırarak 
-kendimi geliştiriyorum. Bu yolda çok ilerlediğimi düşünüyorum ve ilerlemeye devam edeceğim. 
-</p>
-
-<p className='tx'>Kocaeli Üniversitesi İngilizce-İktisat bölümü mezunuyum. 25 yaşındayım ve 
-kod yazmaktan çok keyif alıyorum. Öğrendiğim çoğu bilgiyi diğer front end developerların paylaşımları 
-ve yardımcı olmaları sayesinde öğrendim. Bu yüzden ben de bu yolda öğrendiklerimi ve yaptığım işleri 
-diğer front end developer arkadaşlarım için blog sayfamda paylaşıyorum. Web geliştirme alanında sorularınız
-için sosyal medya hesaplarımdan bana ulaşabilirsiniz. </p>
-
-</div>
 <div className='.resume-cv'>
 
 <a href="emirtetik_cv.pdf"
-download={"emirtetik_cv.pdf"}
+download={"Emir-tetik.pdf"}
 > <button className='resume'>
 <span className='resume-span'>
 CV İndir!
@@ -166,20 +144,18 @@ CV İndir!
 
 
 
-<div className="triangle-container2"><div className="section-triangle2"></div></div>   
+<div className="triangle-container2"><div className="section-triangle2"></div></div>
 
 
 
                                         {/* --------skilss-------- */}
-                                        
+
 
 <section className="skills">
 
 <div className='title-container2'>
 
-<span  data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
+<span   className='data-text1'>benim</span>
 <span className='data-text1 data-1'>yeteneklerim</span>
 </div>
 
@@ -190,9 +166,9 @@ data-aos-easing="ease-in-sine" className='data-text1'>benim</span>
 <div  className="capabilities">
 
 <h3> TASARIM</h3>
-<p> 
+<p>
 Basit ve kullanıcıya keyif veren sitelere
-değer veriyorum.  
+değer veriyorum.
 İyi görünen duyarlı web siteleri yapıyorum.
 </p>
 <p className="list-title ">Kullandığım Diller:</p>
@@ -213,7 +189,7 @@ değer veriyorum.
 
 <div   className="capabilities container-2">
 <h3> FRONTEND DEVELOPER </h3>
-<p> 
+<p>
 Kod yazmayı, hiç yapılmamış veya yapılanın üstüne ekleyerek
 geliştirmeyi  seviyorum.
 </p>
@@ -253,10 +229,8 @@ geliştirmeyi  seviyorum.
                                             {/* ---------blog-------- */}
 <section className="blog">
 <div className='title-container2 '>
- 
-<span data-aos="fade-right"
-data-aos-offset="300"
-data-aos-easing="ease-in-sine" className='data-text1'>blog ve
+
+<span  className='data-text1'>blog ve
 </span>
 <span  className='data-text1 data-1'>projeler
 </span>
@@ -275,7 +249,7 @@ data-aos-easing="ease-in-sine" className='data-text1'>blog ve
 <h3 className="blog-title">AyvazCamping Work</h3>
 <span className="blog-time">9 Ekim 2022'de yüklendi.</span>
 <p className="description">
-Hafta sonunu iyi geçirebiliceğin Camping Web Teması. 
+Hafta sonunu iyi geçirebiliceğin Camping Web Teması.
 </p>
 <div className="options">
 <span>
@@ -318,7 +292,7 @@ React
 <h3 className="blog-title">Node.js Nedir?</h3>
 <span className="blog-time">1 Şubat 2023'de yüklendi.</span>
 <p className="description">
-Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz. 
+Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz.
 </p>
 <div className="options">
 <span>

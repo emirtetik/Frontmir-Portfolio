@@ -31,27 +31,7 @@ const  Blog = ({data}) => {
       keywords={"Blog,Nodejs,React,Porfolio,Web,Responsive"}
       />
     <div className={Blogcss.blog}>
-    <div className={Blogcss.sidebar}>
-      <div className={Blogcss.sidebarItem}>
-      <Image priority   width={150} height={150} src="/images/avatar3.png" alt="avatar" className={Blogcss.avatar_sidebar} />
-        
-        <span className={Blogcss.sidebarTitle}>Hakkımda</span>
-       
-        <p>
-          Güzel ve basit şeyler kodluyorum, yaptığım işi seviyorum.
-        </p>
-      </div>
-    
-      <div className={Blogcss.sidebarItem}>
-        <span className={Blogcss.sidebarTitle}>İletişim</span>
-        <div className={Blogcss.sidebarSocial}>
-        <a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
-        <a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
-        <a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
-        <a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
-        </div>
-      </div>
-    </div>
+   
       <section id={Blogcss.blog}> 
    
                                           {/* ----metin---- */}
@@ -60,11 +40,9 @@ const  Blog = ({data}) => {
 
           <h1 className={Blogcss.h1}>Blog </h1>
           <p><b>FRONTMİR </b>'in bloguna hoş geldiniz! Burada web teknolojileriyle ilgili makaleler ve ilginç trendler hakkında keyifle okuyabileceğiniz içerikler sunuyoruz. Başka bir deyişle, Frontend developer hakkında en son gelişmeleri takip etmenin ve bu konular
-             hakkında daha fazla bilgi sahibi olmanın kolay yolunu sunuyoruz. Keyifle okuyun! ( Bu metin <b> ChatGPT </b> ile oluşturulmuştur. )</p>
+             hakkında daha fazla bilgi sahibi olmanın kolay yolunu sunuyoruz. Keyifle okuyun! </p>
           <h2>Tüm Blog ve çalışmalarım!</h2>
-        <p>Belki aradığınız buradadır. <br /> 
-          yeni çalışmalırım ve bloglar yakında eklenecektir;
-        </p>
+       
         </div>
 
         <div className={Blogcss.search}>
@@ -85,11 +63,9 @@ const  Blog = ({data}) => {
         >
 
    <div  className={Blogcss.card}>
-        <div className={Blogcss.card_img}>
 
      <Image priority={true} className={Blogcss.img} src={blog.img} alt="proje" width={700} height={150} placeholder="blur"
         blurDataURL={blog.img}/>
-     </div>
       
   <h3 className={Blogcss.blog_title} >{blog.header}</h3>
   <span className={Blogcss.blog_time}>{blog.date}</span>
@@ -113,6 +89,7 @@ const  Blog = ({data}) => {
 </div>
 
   </div>
+
   </div>
 ))}
 

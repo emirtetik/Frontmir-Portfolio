@@ -3,70 +3,13 @@
     background: var(--primary-color);
   }
   
-  .sidebar {
-    margin: 30px;
-    position: fixed;
-    margin-top: 1%;
-    background-color:var(--secondary-color);
-    border-radius: 30px;
-    width: 175px;
-    height: 450px;
-    z-index: 1000;
-  }
-  
-  .sidebarItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .sidebarTitle {
-    margin: 10px;
-    padding: 5px;
-    width: 80%;
-    border-top: 2px dashed #a7a4a4;
-    border-bottom: 2px dashed #a7a4a4;
-    text-align: center;
-     letter-spacing: 2px;
-    font-size: 15px;
-    line-height: 19px;
-    color: #eee8e8;
-    font-weight: 600;
-  }
-  
-  .sidebarItem .avatar_sidebar{
-    margin-top: 15px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
-  
-  .sidebarItem > p {
-    padding: 20px;
-    color: wheat;
-  }
-  
-  
-  
-  .sidebarListItem {
-    display: inline-block;
-    width: 50%;
-    margin-top: 15px;
-    cursor: pointer;
-  }
-  
-  .sidebarSocial {
-    margin-top: 15px;
-    display: flex;
-  }
-  
+ 
   
   
   #Details{
     max-width: 850px;
     margin: auto;
     display: grid;
-    row-gap: 3rem;
     background-color: var(--secondary-color);
     padding-bottom: 5rem;
   
@@ -90,17 +33,42 @@
     max-width:600px;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    text-indent: 30px;
     line-height: 30px;
   
   }
 
 
   
-  .icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  .container_detail h5{
+    color: #000000;
+    font-size: 28px;
+  }
+  .h2{
+    color: #000000;
+    font-size: 20px;
+  }
+  .not strong{
+    color: #000000;
+    font-size: 30px;
+  }
+  
+  .btn{
+
+    font-size: 2vh;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: var(--secondary-color);
+    box-shadow: 3px 3px #fff;
+    cursor: pointer;
+  }
+  
+  .btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
   }
   .container_detail h5{
     color: #000000;
@@ -120,12 +88,9 @@
     .image{
      max-width: 600px;
      height: 15rem;
-     box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
      
   }
-  .sidebar{
-    display: none;
-  }
+ 
   
   }
   
@@ -135,15 +100,14 @@
   .container_detail h1 {
      font-size: 22px;
   }
-  .sidebar{
-    display: none;
-  }
+ 
   .Container p {
          padding: 1rem;
   }
   .container_detail h1 {
-    margin:3rem 3rem 0 3rem;
+    margin:0rem 0rem 0 2rem;
     color: #000000;
+    line-height: 36px;
     font-size: 3vh;
   }
 

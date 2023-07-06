@@ -4,6 +4,7 @@
 .home{
 	overflow: hidden;
 	width: 100%;
+	padding-top: 6%;
 }
 
 .banner{
@@ -130,7 +131,7 @@
   }
 
   .hero-box{
-	   width: 65%;
+	   width: 70%;
        height: 250px;
 	   background-color: var(--secondary-color);
 	   grid-gap: 100px;
@@ -244,8 +245,8 @@
 	display: block;
 	width: 100%;
 	height: 100%;
-	border-bottom: 5px solid var(--secondary-color);
-	border-right: 5px solid var(--white-color);
+	border-bottom: 5px solid var(--dark-color);
+	border-right: 5px solid var(--third-color);
 	animation: scroll 1.5s linear infinite;
 	opacity: 0;
 
@@ -301,6 +302,7 @@
 		font-weight: bolder;
 		width: fit-content;
 		transition: 2s;
+		
 
 	}
 	.hi:hover{
@@ -311,17 +313,16 @@
 		line-height: 30px;
 		font-size: 2.5vh;
 		color: #fff;
-
+        text-align: start;
          text-indent: 40px;
 		 margin-right: 5rem;
 	}
 	.resume-container{
       width: 100%;
-	  height: auto;
 	  display: grid;
-	  grid-template-columns: repeat(2,1fr);
-
+	  grid-template-columns: repeat(1,1fr);
 	}
+	
 .resume{
 	padding: 0.1em 0.25em;
 	width: 8em;
@@ -335,16 +336,11 @@
 	margin-right: 3rem;
   }
   .resume-text{
-	background-color: #000000;
-	border-radius:85% 15% 81% 19% / 24% 0% 100% 76%  ;
 
-	width: 90vh;
 	transition: 2s;
 
   }
-  .resume-text:hover{
-	border-radius: 0% 100% 0% 100% / 100% 0% 100% 0% ;
-  }
+ 
   
  .resume-span {
 	position: relative;
@@ -375,22 +371,8 @@
 	transition: all 1s;
   }
 
-.avatar{
-	width: 400px;
-	display: grid;
-    height: auto;
-	place-items: center;
-	margin-top: 3rem;
 
-}
 
-.avatar-img{
-	background-color: #000000;
-	border-radius:100% 45% 100% 41% / 47% 99% 51% 100%  ;
-
-    transition: 2s;
-    margin-left: 3rem;
-}
 
       
                                                            /* --------skılll---- */
@@ -416,11 +398,12 @@
 	color: #ffffff;
 	font-family: Impact, "Anton", Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-weight: 700;
+	font-size: 10vh;
 	font-style: italic;
 	display: block;
 	position: absolute;
 	letter-spacing: -0.005em;
-	text-shadow: -6px 10px 4px var(--primary-color);
+	text-shadow: -6px 3px 1px var(--primary-color);
    }
    .data-1{
 	color: var(--secondary-color) !important;
@@ -531,14 +514,7 @@
 	font-weight: 600;
 	color: var(--third-color) !important;
 } 
-.blob1{
-	transition: 4s;
-	width: 100%;
-	max-height: 450px;
-}
-.blob1:hover{
-	opacity: 0;
-}
+
 
 
                                                 /* --------bloggg-------- */
@@ -552,35 +528,27 @@
 
 
 .card{
-	width: 70%;
-	height: 26rem;
-	background: rgb(0, 0, 0);
+	width: 80%;
+	height: auto;
+	background: var(--dark-color);
 	border-radius: 1.5rem;
 	padding: 1.5rem;
-	border-bottom: 10px solid var(--secondary-color);
-	border-left: 5px  var(--secondary-color) outset;
+	border-bottom: 10px solid var(--white-color);
+	border-left: 5px  rgb(255, 255, 255) outset;
     z-index: 10;
 
   }
-  .card:hover{
-	  border-bottom: 10px solid var(--white-color);
-	  border-left: 5px  rgb(255, 255, 255) outset;
-  }
-  .card-img-holder{
-	width: 100%;
-	height: auto;
-  }
+
+ 
   
    .card-img-holder img{
 	width: 100%;
-	height: 180px;
-	max-height: 15rem;
-	object-fit: cover;
-	border-radius: 1.5rem;
+	max-height: 9rem;
+	object-fit: contain/cover;
   } 
   
   .blog-title{
-	color: var(--white-color);
+	color: var(--third-color);
 	padding: 1rem 0;
 	font-size: 2vh;
 
@@ -588,21 +556,21 @@
   
   .description{
 	padding: 1rem 0;
-	color: var(--third-color);
+	color: var(--white-color);
 	font-size: 1.5vh;
 
   }
   
   .blog-time{
 	font-size: 1.3vh;
-	color:var(--third-color);
+	color:var(--white-color);
   }
   
   .options{
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-size: 1.4vh;
+	justify-content:start;
+	gap: 20px;
+	font-size: 1.8vh;
 
   }
   
@@ -611,7 +579,7 @@
 	color: var(--third-color);
 
   }
-  
+ 
   .btn{
 	  font-size: 1.3vh;
 	  color: var(--white-color);
@@ -672,16 +640,8 @@
 	.icon-item{
 		height: 30px;
 	}
-	.blob1{
-		transition: 4s;
-		width: 100%;
-		max-height: 300px;
-	}
-		.avatar-img{
-		width: 400px;
-		height:400px;
-		margin-left: 0rem;
-	}
+
+	
 	.hi{
 		font-size: 3vh;
 		margin-top: 2rem;
@@ -721,7 +681,7 @@
 	align-items: center;
 	justify-content: center;
 }
-   .data-text1{
+   /* .data-text1{
 	color: #ffffff;
 	font-family: Impact, "Anton", Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-weight: 700;
@@ -729,7 +689,7 @@
 	display: block;
 	position: absolute;
 	letter-spacing: -0.005em;
-   }
+   } */
  }
  
  @media (min-width: 481px) and (max-width: 767px) {
@@ -779,12 +739,6 @@
 	
 	}
 
-		
-.avatar-img{
-	width: 400px;
-	height: 400px;
-	margin-left: 0;
-}
 
 	.tx{
 		margin: 2rem 6rem 3rem 6rem;
@@ -865,18 +819,15 @@
 	}
 	
 	.restart{
-          font-size: 0.7vh;	
-		  margin: 2px;
+          font-size: 1.1vh;	
 		  margin-left: 50px;
-		  width: 50px;
 		  line-height: 2em;
 		  margin-top: 40px;
 	  }
 	  .hero-box{
-		width: 80%;
+		width: 90%;
 		height: 112px;
-		   margin-top: 4rem;
-		   grid-gap: 2px;
+		   grid-gap: 0px;
 		   border-radius: 5%;
 	  }
 	.images{
@@ -892,15 +843,15 @@
 		width:100px;
 	}
 	.front{
-		font-size: 0.4rem;
+		font-size: 1.8vh;
 		line-height: 10px;
 	}
 	.name{
-		font-size: 0.6rem;
+		font-size: 2.2vh;
 	}
 	.container-play   {
 	 margin-top: 0;
-	margin-left: 0px;
+	margin-left: 25px;
 
 	  }
 	  .container-play  .titles {
@@ -915,28 +866,25 @@
 	 
 	
   .icon-box{
-column-gap:  2px;
-margin-left: -10px;
+column-gap:  1px;
+margin-left: -0px;
   }
 	.icon-item{
-		width: 20px;
-		height: 20px;
+		width: 29px;
+		height: 25px;
 	}
 	.scrolldown span{
-		width: 40%;
-		height: 40%;
+		width: 50%;
+		height: 50%;
+		border-bottom: 3px solid var(--dark-color);
+		border-right: 3px solid var(--third-color);
+	}
 	
-	}
-	.avatar-img{
-		width: 300px;
-		height:300px;
-		margin-top: -2rem;
-		margin-bottom: 2rem;
-	}
 	
 	.hi{
 		font-size: 3vh;
 		margin-top: 2rem;
+		margin-right: 1rem;
 	}
 	
 	
@@ -945,7 +893,7 @@ margin-left: -10px;
 	
 		.tx{
 			line-height: 20px;
-			font-size: 1.5vh;
+			font-size: 2vh;
 			 text-indent: 20px;
 		}
 		.resume-container{
@@ -988,7 +936,8 @@ margin-left: -10px;
 		border-bottom: 3px dashed rgb(255, 255, 255) ;
 	}
 	.data-text1{
-		letter-spacing: 3px;
+		letter-spacing: 1px;
+		font-size: 4vh;
 	}
 	
 	.title-container2 span::before, .title-container2 span::after{
@@ -1035,23 +984,20 @@ margin-left: -10px;
 	
 	
 	.blog-title{
-		padding: 0rem 0;
 		font-size: 1.5vh;
 	  }
-	  .card{
-		height: auto;
-	  }
+	 .card{
+		width: 90%;
+	 }
 	  .card-img-holder img{
 		width: 100%;
-		height: auto;
-		max-height: 15rem;
-		object-fit: cover;
+		object-fit: contain/cover;
 		border-radius: 1.5rem;
 	  } 
 .section-triangle3 {
     width: 100%;
-	border-left: 2vh solid var(--primary-color);
-	border-right: 2vh solid var(--primary-color);
+	border-left: 5vh solid var(--primary-color);
+	border-right: 5vh solid var(--primary-color);
     border-top: 100px solid var(--secondary-color);
 	display: grid;
 	place-items: center;

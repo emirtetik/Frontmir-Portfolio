@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect,useState} from 'react'
 import Link from 'next/link';
 import { useRef } from "react";
 import { useRouter } from 'next/router';
@@ -8,21 +8,41 @@ import { Power3, TweenMax} from "gsap"
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Nav() {
-//   useEffect (() => {
-//     TweenMax.from(".nav" , .8, {opacity:0, x:100,stagger:.50, ease: Power3.easeInOut})
-
-// },[])
-const router = useRouter();
+  const [scrolled, setScrolled] = useState(false);
+  const router = useRouter();
   const navRef = useRef();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      if (scrollTop > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
     
 	};
+
   const closeMenu = () => showNavbar(false)
 
+
+ 
+
+
   return (
-    <header>
+    <header className={scrolled ? 'scrolled' : ''}>
   <div className="logo" data-text="logo">
     <Link className="logo_link" href="/"> Front<b className="mir">-Mir</b></Link>
     

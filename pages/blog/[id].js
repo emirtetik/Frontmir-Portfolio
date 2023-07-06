@@ -19,26 +19,7 @@ import {data} from '../../data.js'
       title={"Blog"}
       />
       <div className={Detailscss.Container}>
-      <div className={Detailscss.sidebar}>
-      <div className={Detailscss.sidebarItem}>
-        <Image priority src="/images/avatar3.png" className={Detailscss.avatar_sidebar} alt="avatar"  width={150} height={150}   />
-        <span className={Detailscss.sidebarTitle}>Hakkımda</span>
-       
-        <p>
-          Güzel ve basit şeyler kodluyorum ve yaptığım işi seviyorum.
-        </p>
-      </div>
-    
-      <div className={Detailscss.sidebarItem}>
-        <span className={Detailscss.sidebarTitle}>İletişim</span>
-        <div className={Detailscss.sidebarSocial}>
-        <a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
-        <a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
-        <a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
-        <a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
-        </div>
-      </div>
-    </div>
+     
 
      
         <section id={Detailscss.Details}>
@@ -48,22 +29,36 @@ import {data} from '../../data.js'
         <h1 >{userData?.header}</h1>
         <p>{userData?.text}</p>
         <p> {userData?.listext1}</p>
-        <Image  priority={true}   width={800} height={300} src={userData.img} alt="avatar" className={Detailscss.image} />
+        <Image  priority={true}   width={800} height={300} src={userData?.img} alt="blog image" className={Detailscss.image} />
            
  
         <p>{userData?.text1}</p>
-        <Image  priority={true}   width={800} height={300} src={userData.img1} alt="avatar" className={Detailscss.image} />
-
+        {userData?.img1 && (
+      <Image
+        priority={true}
+        width={800}
+        height={300}
+        src={userData?.img1}
+        alt="blog image"
+        className={Detailscss.image}
+      />
+    )}
         <p>{userData?.text2}</p>
         <h5>{userData?.soru}</h5>
-        <Image  priority={true}   width={800} height={300} src={userData.img3} alt="avatar" className={Detailscss.image} />
+        {userData?.img2 && (
+        <Image  priority={true}   width={800} height={300} src={userData?.img2} alt="blog image" className={Detailscss.image} />
+
+        )}
 
         <p>{userData?.text3}</p>
 
 
 
         <h5>{userData?.soru1}</h5>
-        <Image  priority={true}   width={800} height={300} src={userData.img4} alt="avatar" className={Detailscss.image} />
+         {userData?.img3 && (
+        <Image  priority={true}   width={800} height={300} src={userData?.img3} alt="blog image" className={Detailscss.image} />
+
+         )}
 
         <p>{userData?.text5}</p>
         <p>{userData?.text4_5}</p>
@@ -71,23 +66,31 @@ import {data} from '../../data.js'
         
 
         <p>{userData?.text4}</p>
+    {userData?.img4 && (
+        <Image  priority={true}   width={800} height={300} src={userData?.img4} alt="blog image" className={Detailscss.image} />
 
-        <Image  priority={true}   width={800} height={300} src={userData.img5} alt="avatar" className={Detailscss.image} />
+    )}
  
 
         <p>{userData?.text6}</p>
         <h5>{userData?.soru2}</h5>
 
         <p>{userData?.text6_5}</p>
+     {userData.img5 && (
+        <Image  priority={true}   width={800} height={300} src={userData?.img5} alt="blog image" className={Detailscss.image} />
 
-        <Image  priority={true}   width={800} height={300} src={userData.img6} alt="avatar" className={Detailscss.image} />
+     )}
 
 
         <p>{userData?.text7}</p>
         <h2 className={Detailscss.h2}>{userData?.sonuc}</h2>
         <p>{userData?.text8}</p> 
-        </div>
+        {userData.live && (
+        <a href={userData?.live}> <button className={Detailscss.btn}>Live</button></a>
 
+        )}
+        </div>
+          
         </section>
         
         </div>

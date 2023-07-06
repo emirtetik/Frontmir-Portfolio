@@ -10,7 +10,7 @@
 
 header {
 	display: flex;
-  position: relative;
+  position: fixed;
   width: 100%;
 	align-items: center;
 	justify-content:space-between;
@@ -18,8 +18,11 @@ header {
 	padding: 0 2rem;
   z-index: 1000;
   background:black;
+  transition: background-color 0.5s linear;
 }
-
+header.scrolled {
+  background-color: var(--third-color);
+}
 header:before {
   content: "";
   z-index: -1;
@@ -66,21 +69,21 @@ header::after {
  
   cursor: pointer;
  }
- 
+ header.scrolled .logo_link {
+  color: var(--dark-color); 
+}
  
 .mir{
-  color: #000000;
+  color: #ffffff;
  transition: all 0.5s;
- -webkit-text-stroke: 0.5px #ffffff;
- 
+ -webkit-text-stroke: 0.5px var(--third-color);
+}
+header.scrolled .logo_link .mir {
+  color: var(--secondary-color); 
+ -webkit-text-stroke: 0.5px var(--secondary-color);
 
-  
 }
-.mir:hover{
-  text-shadow: none;
-  -webkit-text-stroke: 2px var(--secondary-color);
- 
-}
+
 
 header .nav-btn {
 	padding: 5px;
@@ -104,6 +107,7 @@ nav{
 
   color: antiquewhite;
 }
+
 .nav  a{
   color: var(--white-color);
   text-decoration: none;
@@ -112,10 +116,18 @@ nav{
    font-size: 16px;
    font-weight: 700;
  } 
+ header.scrolled .nav a{
+  color: var(--dark-color);
+
+ }
+
 nav .active{
   color: var(--third-color);
  }
+ header.scrolled nav .active{
+  color: var(--white-color);
 
+ }
  .nav  a:after {    
 bottom: 0;
 content: "";

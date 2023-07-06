@@ -1,5 +1,5 @@
 import Layout from '@/components/layout/Layout'
-import {Suspense} from "react";
+import {Suspense, useRef} from "react";
 import Meta from '@/components/Meta'
 import OrbitControls from "../components/Game/Control/OrbitControls"
 import Draggable from '@/components/Game/Control/Draggable'
@@ -10,11 +10,12 @@ import gamecss from '@/styles/game.module.css'
 import { Canvas } from "@react-three/fiber";
 
 function Game() {
+  const canvasRef = useRef();
   return (
     <Layout>
         <Meta 
-      title={"Sanat"}
-      description={"tsParticles"}
+      title={"Game"}
+      description={"WebGL with Threejs"}
       keywords={"WebGL,Threejs,Game,design,art"}
       />
 
@@ -29,10 +30,10 @@ function Game() {
       >
 
          <ambientLight color={"white"} intensity={0.3} />
-          <LightBulb position={[0, 3, 0]} />
 
           <Draggable>
           <Suspense fallback={null}>
+          <LightBulb position={[0, 3, 0]} />
             <Box rotateX={3} rotateY={0.2} />
         </Suspense>
           </Draggable>

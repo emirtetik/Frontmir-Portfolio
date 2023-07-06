@@ -7,7 +7,7 @@ function LightBulb(props) {
       <pointLight castShadow />
       <mesh>
         <sphereGeometry args={[0.2, 30, 10]} attach="geometry" />
-        <meshStandardMaterial emissive="purple" attach="material" />
+        <meshStandardMaterial emissive="#F2962F" attach="material" />
       </mesh>
     </group>
   );

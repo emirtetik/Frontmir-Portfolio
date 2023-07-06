@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+  }
+  
+  .editor {
+    width: 30%;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 40rem;
+    padding: 20px;
+    margin-top: 3rem;
+    font-size: 2vh;
+    outline: none;
+  }
+  
+  .preview {
+    width: 40%;
+    font-size: 2vh;
+    line-height: 27px;
+  }
+  .preview_head{
+    margin-bottom: 2rem;
+  }
+  .markdown {
+    height: 40vh;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    gap: 3rem;
+
+    }
+  
+    .editor,
+    .preview {
+      width: 100%;
+      height: auto;
+    }
+    .markdown {
+        height:auto;
+        text-align: start;
+      }
+   
+
+  }
+  
