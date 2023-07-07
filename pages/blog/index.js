@@ -41,7 +41,7 @@ const  Blog = ({data}) => {
           <h1 className={Blogcss.h1}>Blog </h1>
           <p><b>FRONTMİR </b>'in bloguna hoş geldiniz! Burada web teknolojileriyle ilgili makaleler ve ilginç trendler hakkında keyifle okuyabileceğiniz içerikler sunuyoruz. Başka bir deyişle, Frontend developer hakkında en son gelişmeleri takip etmenin ve bu konular
              hakkında daha fazla bilgi sahibi olmanın kolay yolunu sunuyoruz. Keyifle okuyun! </p>
-          <h2>Tüm Blog ve çalışmalarım!</h2>
+          <h2>Tüm Blog ve Projelerim!</h2>
        
         </div>
 
@@ -84,6 +84,11 @@ const  Blog = ({data}) => {
       blog
      </Link>
      <a href={blog.href}> <button className={Blogcss.btn}>githup</button></a>
+     
+     {blog.live && (
+       <a href={blog.live}> <button className={Blogcss.btn}>Live</button></a>
+     ) }
+
 
 
 </div>

@@ -180,6 +180,10 @@ left: 0;
 		transform: translateY(-100vh);
 	}
 
+  header.scrolled nav {
+    background: var(--third-color);
+  }
+
 
 	header .responsive_nav {
 		transform: none;

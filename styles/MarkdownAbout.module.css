@@ -1,41 +1,71 @@
 .container {
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 3rem;
   }
   
   .editor {
-    width: 30%;
+    width: 40%;
+    overflow: auto;
   }
-  
+  .editor_head{
+    margin-bottom: 3rem;
+    color: var(--third-color);
+  }
+  .panel{
+    background-color: var(--third-color);
+    padding: 10px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .panel p {
+     color: var(--white-color);
+     font-weight: bold;
+     font-size: 20px;
+  }
   .textarea {
     width: 100%;
     height: 40rem;
     padding: 20px;
-    margin-top: 3rem;
-    font-size: 2vh;
-    outline: none;
+    font-size: 1.8vh;
+    font-family: 'Fira Code', monospace;
+  background-color: rgba(0, 0, 0, 0.637);
+  color: #d4d4d4;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
   }
   
+
   .preview {
-    width: 40%;
-    font-size: 2vh;
-    line-height: 27px;
+    background: transparent;
   }
   .preview_head{
     margin-bottom: 2rem;
+    color: var(--third-color);
   }
   .markdown {
-    height: 40vh;
-    padding: 20px;
+    max-height: auto;
+  padding: 0px;
   }
+
   
   @media screen and (max-width: 768px) {
     .container {
       flex-direction: column;
       align-items: center;
-    gap: 3rem;
+      gap: 3rem;
 
+    }
+    .textarea {
+      height: 40rem;
+      padding: 20px;
+    
     }
   
     .editor,
@@ -45,9 +75,21 @@
     }
     .markdown {
         height:auto;
-        text-align: start;
       }
    
 
+  }
+  @media screen and (max-width: 480px) {
+    .textarea {
+      width: 90%;
+    
+      margin-left: 10px;
+    }
+    .markdown {
+      height:auto;
+      width: 90%;
+      margin-left: 15px;
+    }
+ 
   }
   

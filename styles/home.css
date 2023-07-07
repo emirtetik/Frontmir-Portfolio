@@ -450,13 +450,14 @@
  
 .capabilities{
 	background-size: cover ;
-    transform: skew(8deg);
-	box-shadow: -5px 20px 10px var(--white-color);
-	transition: 2s;
+    transform: skew(5deg);
+	background:var(--gradient2-color) ;
+	box-shadow: -15px 15px 0px var(--secondary-color);
+	transition: .8s;
 	cursor: pointer;
 	border-bottom: 10px solid var(--secondary-color);
 	border-left: 5px var(--secondary-color) outset;
-	border-radius: 30px;
+	border-radius: 50px;
 
   }
 
@@ -489,6 +490,8 @@
   }
 .capabilities li{
 	color: #fff;
+	font-weight: bold;
+	font-size: 2vh;
 
 }
 .capabilities ul{
@@ -530,11 +533,9 @@
 .card{
 	width: 80%;
 	height: auto;
-	background: var(--dark-color);
+	background: var(--gradient-color);
 	border-radius: 1.5rem;
 	padding: 1.5rem;
-	border-bottom: 10px solid var(--white-color);
-	border-left: 5px  rgb(255, 255, 255) outset;
     z-index: 10;
 
   }
@@ -544,7 +545,8 @@
    .card-img-holder img{
 	width: 100%;
 	max-height: 9rem;
-	object-fit: contain/cover;
+	border-radius: 1.5rem;
+	object-fit: cover;
   } 
   
   .blog-title{
@@ -751,7 +753,6 @@
 	  display: grid;
 	  justify-content: center;
 	  align-items: center;
-	  text-align: center;
 	  place-items: center;
 
 	}
@@ -800,7 +801,9 @@
 	
  }
  @media (min-width: 320px) and (max-width: 480px) {
-	
+	.home {
+		padding-top: 28%;
+	}
 	.banner{
 		min-height: 55vh;
 			
@@ -822,7 +825,7 @@
           font-size: 1.1vh;	
 		  margin-left: 50px;
 		  line-height: 2em;
-		  margin-top: 40px;
+		  margin-top: 25px;
 	  }
 	  .hero-box{
 		width: 90%;
@@ -844,9 +847,12 @@
 	}
 	.front{
 		font-size: 1.8vh;
-		line-height: 10px;
+		line-height: 20px;
 	}
 	.name{
+		margin-top: 5px;
+		line-height: 20px;
+
 		font-size: 2.2vh;
 	}
 	.container-play   {
@@ -937,7 +943,7 @@ margin-left: -0px;
 	}
 	.data-text1{
 		letter-spacing: 1px;
-		font-size: 4vh;
+		font-size: 3vh;
 	}
 	
 	.title-container2 span::before, .title-container2 span::after{
@@ -989,11 +995,7 @@ margin-left: -0px;
 	 .card{
 		width: 90%;
 	 }
-	  .card-img-holder img{
-		width: 100%;
-		object-fit: contain/cover;
-		border-radius: 1.5rem;
-	  } 
+	
 .section-triangle3 {
     width: 100%;
 	border-left: 5vh solid var(--primary-color);

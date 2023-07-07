@@ -60,7 +60,7 @@
   padding-left: 1rem;
 }
 .text h2{
-  margin: 3rem;
+  margin: 2rem;
   font-size: 3vh ;
   color: #000000;
 }
@@ -87,7 +87,7 @@
 .card{
   width: 80%;
   height: auto;
-  background: var(--dark-color);
+  background: var(--gradient-color);
   border-radius: 1.5rem;
   padding: 1.5rem;
 }
@@ -96,7 +96,8 @@
 .img{
 
   width: 100%;
-  object-fit: contain/cover;
+  border-radius: 1.5rem;
+  object-fit: cover;
 }
 
 
@@ -133,7 +134,7 @@
 
 .btn{
 
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #fff;
     text-transform: uppercase;
     padding: 5px 10px;
@@ -156,7 +157,7 @@
 
 @media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
   .blog{  
-     padding-top: 5%;
+     padding-top: 10%;
    }
  
 }
@@ -170,7 +171,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .blog{
-    padding-top: 5%;
+    padding-top: 32%;
   }
   .search{
     margin-top: 0rem;

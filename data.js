@@ -16,7 +16,7 @@ export  const  data = [
           "text8":`Alieswolf web sitesinde, yaratıcılığı desteklemek ve güçlü bir kullanıcı deneyimi sunmak için çeşitli teknolojiler kullanmaktayım. Next.js ve React, dinamik ve hızlı web uygulamalarının geliştirilmesini kolaylaştırırken, Bootstrap, sayfaların görsel tasarımını iyileştirmemde önemli bir rol oynuyor. Ayrıca, AOS, React Icons ve React-Bootstrap gibi araçlarla sayfaları daha etkileyici hale getirebiliyorum.
           Alieswolf'un kullanılan teknolojiler sayesinde, yaratıcılığımı ifade etmek ve ziyaretçilere ilgi çekici bir deneyim sunmak için gereken güçlü araçlara sahibim.`,
           "live":`https://www.alieswolf.com/`,
-          "make": "Nextjs-Bootstrap-AOS"
+          "make": "Nextjs-Bootstrap"
     },
     {
     "id":2,

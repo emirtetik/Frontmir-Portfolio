@@ -14,7 +14,7 @@ import Meta from '@/components/Meta'
 import ayvaz1 from "../public/images/ayvaz1.png"
 import kuofor1 from "../public/images/kuofor1.png"
 import nodejs from "../public/images/nodejs.png"
-import responsive from "../public/images/responsive.png"
+import alies from "../public/images/alies.png"
 import MarkdownAbout from '@/components/MarkAbout/MarkdownAbout'
 
 
@@ -306,18 +306,18 @@ Blog'u oku..
 <div className="card" data-aos="zoom-in">
 
 <div className="card-img-holder">
-<Image priority src={responsive} alt='proje' width={800} height={300}  placeholder="blur"
+<Image priority src={alies} alt='proje' width={800} height={300}  placeholder="blur"
   blurDataURL={'/images/responsive.png'}/>
 
 </div>
-<h3 className="blog-title">Responsive Tasarım Nedir?</h3>
-<span className="blog-time">3 Şubat 2023'de yüklendi.</span>
+<h3 className="blog-title">Nextjs İle Spora Başlayabilirsin.</h3>
+<span className="blog-time">6 Temmuz 2023'de yüklendi.</span>
 <p className="description">
-Responsive, uyumlu web tasarım anlamına gelir. Son birkaç yılda ismini sıkça duyduğumuz bu web tasarım, ilk olarak 2010 tarihinde ortaya çıktı.
+Alieswolf, Next.js framework'ü üzerine inşa edilmiştir. Next.js, React tabanlı bir web framework'üdür ve hızlı, ölçeklenebilir ve SEO dostu web uygulamaları geliştirmeyi kolaylaştırır.
 </p>
 <div className="options">
 <span>
-Blog'u oku..
+Nextjs-Bootstrap-AOS
 </span>
 <Link href="/blog"> <button className="btn">Blog</button></Link>
 
