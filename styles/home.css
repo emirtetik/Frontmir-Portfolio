@@ -570,7 +570,7 @@
   
   .options{
 	display: flex;
-	justify-content:start;
+	justify-content:flex-start;
 	gap: 20px;
 	font-size: 1.8vh;
 
