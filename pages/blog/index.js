@@ -83,10 +83,10 @@ const  Blog = ({data}) => {
      >
       blog
      </Link>
-     <a href={blog.href}> <button className={Blogcss.btn}>githup</button></a>
+     <a href={blog.href} target='_blank'> <button className={Blogcss.btn}>githup</button></a>
      
      {blog.live && (
-       <a href={blog.live}> <button className={Blogcss.btn}>Live</button></a>
+       <a href={blog.live} target='_blank'> <button className={Blogcss.btn}>Live</button></a>
      ) }
 
 

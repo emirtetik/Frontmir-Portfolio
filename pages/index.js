@@ -76,10 +76,10 @@ export default function Home() {
 <h4 className="name">Emir Tetik</h4>
 <h4 className="front">Frontend Developer</h4>
 <div className="icon-box">
-<a className='icon' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
-<a className='icon' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
-<a className='icon' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
-<a className='icon' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
+<a className='icon' target='_blank' href="https://github.com/emirtetik"><AiFillGithub className='icon-item' /></a>
+<a className='icon' target='_blank' href="https://www.linkedin.com/in/emir-tetik"><AiFillLinkedin className='icon-item'/></a>
+<a className='icon' target='_blank' href="https://www.instagram.com/emirtetiik/"><AiFillInstagram className='icon-item' /></a>
+<a className='icon' target='_blank' href="mailto:dev@emirfy.com"><MdAttachEmail className='icon-item' /></a>
 </div>
 </div>
 
@@ -307,7 +307,7 @@ Blog'u oku..
 
 <div className="card-img-holder">
 <Image priority src={alies} alt='proje' width={800} height={300}  placeholder="blur"
-  blurDataURL={'/images/responsive.png'}/>
+  blurDataURL={'/images/alies.png'}/>
 
 </div>
 <h3 className="blog-title">Nextjs İle Spora Başlayabilirsin.</h3>

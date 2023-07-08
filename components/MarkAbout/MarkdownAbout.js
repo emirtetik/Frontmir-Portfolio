@@ -75,7 +75,7 @@ function MarkdownAbout() {
     <div className={MarkAboutcss.container}>
       <div className={MarkAboutcss.editor}>
         <h2 className={MarkAboutcss.editor_head}>Editor</h2>
-        <div className={MarkAboutcss.panel}><p>Vs Code</p></div>
+        <div className={MarkAboutcss.panel}><p>Example Code</p></div>
         <textarea
           autoFocus
           className={MarkAboutcss.textarea}

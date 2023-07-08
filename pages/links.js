@@ -24,13 +24,12 @@ function Links() {
 
                      {/* <!-- Links--> */}
       <div className={Linkcss.container}>               
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href='https://www.instagram.com/emirtetiik/'>İnstagram</a> </div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://github.com/emirtetik">Githup</a></div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://www.linkedin.com/in/emir-tetik-53ba89248/">Linkedin</a></div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="mailto:dev@emirfy.com">E-mail</a></div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://wa.me/905466096231">Watsapp</a></div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://www.voxnet.com.tr/">Hosting</a></div>
-        <div className={Linkcss.link_container} ><a className={Linkcss.links} href="https://www.emirfy.com/">Freelancer</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href='https://www.instagram.com/emirtetiik/'>İnstagram</a> </div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href="https://github.com/emirtetik">Githup</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href="https://www.linkedin.com/in/emir-tetik-53ba89248/">Linkedin</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href="mailto:dev@emirfy.com">E-mail</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href="https://www.voxnet.com.tr/">Hosting</a></div>
+        <div className={Linkcss.link_container} ><a className={Linkcss.links} target='_blank' href="https://www.emirfy.com/">Freelancer</a></div>
 
         <div className={Linkcss.linktree}>
           Front-mir

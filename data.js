@@ -3,6 +3,45 @@
 export  const  data = [ 
     {
         "id":1,
+        "header":"React Native ile Mesajlaşma",
+        "date":"9 Temmuz 2023'de yüklendi.", 
+        "img":"/images/login.png",      
+        "img2":"/images/rooms.png",      
+        "img3":"/images/messages.png",      
+        "make": "React Native-Firebase-Formik",
+
+        "text":`Codetalks, benim tarafımdan geliştirilen bir React Native projesidir. Bu proje, kullanıcıların birbirleriyle sohbet etmelerini sağlayan basit ve kullanıcı dostu bir sohbet uygulamasıdır. Projede, React Native'in sunduğu birçok kütüphane ve Firebase'in backend hizmetleri kullanılmıştır.`,
+        "title":`Proje Hakkında Genel Bilgiler:`,
+        "text1":`Codetalks, kullanıcı kimlik doğrulaması için Firebase Authentication kullanılmış ve kullanıcılar Firebase Realtime Database'e kaydedilmiştir. Kullanıcılar, oluşturulan odalara katılabilir ve bu odalarda diğer kullanıcılarla sohbet edebilirler. React Navigation kütüphanesi sayesinde kullanıcılar arasında gezinme işlevselliği sağlanmıştır.`,
+        "title1":`Proje Yapısı:`,
+
+        "text2":`Codetalks, birkaç ana bileşenden oluşur:
+
+        Giriş Ekranı: Kullanıcıların uygulamaya giriş yapabileceği ve yeni bir hesap oluşturabileceği bir ekran.
+        Ana Ekran: Kullanıcının oturum açtıktan sonra karşılaştığı ana ekran. Burada, kullanıcının odalara erişimi ve yeni odalar oluşturma seçeneği bulunur.
+        Odalar Ekranı: Kullanıcının mevcut odaları listeleyebileceği ve bir odaya girebileceği bir ekran.
+        Mesajlar Ekranı: Bir odadaki mesajları görüntüleyebilen ve yeni mesajlar gönderebilen bir ekran.`,
+        "title2":"Kullanılan Kütüphaneler:",
+
+        "text3":`Kullanılan Kütüphaneler:
+        Codetalks projesinde birkaç önemli kütüphane kullanılmıştır. Bunlar şunlardır:
+        
+        "@react-native-firebase/app": Firebase hizmetlerine erişmek için kullanılan ana kütüphane.
+        "@react-native-firebase/auth": Firebase Authentication hizmetlerini kullanmak için kullanılan kütüphane.
+        "@react-native-firebase/database": Firebase Realtime Database'i kullanmak için kullanılan kütüphane.
+        "@react-navigation/native": Navigasyon işlevselliği sağlamak için kullanılan kütüphane.
+        "formik": Form işlemlerini kolaylaştırmak için kullanılan kütüphane.
+        "react-native-flash-message": Kullanıcıya bildirim mesajları göstermek için kullanılan kütüphane.
+        "react-native-vector-icons": İkonları kullanmak için kullanılan kütüphane.
+      `,
+        "title3":"Sonuç",
+        "text4":`Codetalks projesi, React Native'in gücünü ve Firebase'in kolaylığını birleştirerek basit ve kullanıcı dostu bir sohbet uygulaması sunar. Kullanıcılar, uygulama üzerinden sohbet edebilir, yeni odalar oluşturabilir ve mevcut odalara katılabilirler. Projenin geliştirilmesi sırasında React Native'in temel bileşenleri, Firebase hizmetleri ve çeşitli yardımcı kütüphaneler kullanılmıştır.`,
+        "text5":`Codetalks, React Native ile geliştirme yapmak isteyenler için iyi bir başlangıç noktası olabilir ve temel sohbet uygulamalarının nasıl oluşturulacağı konusunda fikir vermektedir. Proje, kullanıcılara pratik deneyim kazandırırken aynı zamanda React Native'in sunduğu avantajları ve Firebase'in sağladığı kolaylıkları da göstermektedir.`,
+
+
+    },
+    {
+        "id":2,
         "header":"Nextjs İle Spora Başlayabilirsin.",
         "date":"6 Temmuz 2023'de yüklendi.", 
         "img":"/images/alies.png",
@@ -19,10 +58,9 @@ export  const  data = [
           "make": "Nextjs-Bootstrap"
     },
     {
-    "id":2,
+    "id":3,
     "header":"AyvazCamping Work",
     "date":  "9 Ekim 2022'de yüklendi.",
-    "text": "Bu Projede kullandığım diller ve detayları;",
     "listext1":"Sadece Html ve Css kullanarak yapabiliceğiniz bir web sitesi.",
     "text1":"Ayvaz Camping Html, Css ve Scss ile oluşturulmuş başlangıç seviyesinde bir web sitesi. Kullanıcıları eğlendirmeyi amaçlayan animasyonları ve görüntüsü ile işletmenin amacına uyan bir proje.  ",
     "text2":"İlk iki fotoğrafta gördüğünüz gibi anasayfamız gündüz ve gece temalarından oluşmaktadır. Gece temasında siteye dark modu hissiyatı veren bir çalışma yapılmıştır. Tesisin en önemli özelliği olan karavanda konaklama imkanı sitemizin anasayfasında öne çıkartılarak işlenmiştir.   ",
@@ -49,7 +87,7 @@ export  const  data = [
        },
 
 {
-    "id":3,
+    "id":4,
     "header":"React nedir? ",
     "date":"14 Aralık 2022'de yüklendi.",
     "text":"Bu Projede kullandığım diller ve detayları;",
@@ -78,7 +116,7 @@ export  const  data = [
     "make": "React-Gsap-React_scroll"
 },
 {
-    "id":4,
+    "id":5,
     "header":"Node.js Nedir?",
     "date":"1 Şubat 2022'de yüklendi.",
     // "title":"Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz. ",
@@ -102,23 +140,26 @@ export  const  data = [
    
 },
 {
-    "id":5,
-    "header":"Responsive Tasarım Nedir?",
-    "date":"3 Şubat 2022'de yüklendi.",
-    // "title":"Responsive, uyumlu web tasarım anlamına gelir. Son birkaç yılda ismini sıkça duyduğumuz bu web tasarım, ilk olarak 2010 tarihinde ortaya çıktı.",
+    "id":6,
+    "header":"React Drum-Machine",
+    "date":"8 Temmuz 2023' yüklendi.",
+    "live":"https://drum-machine-kappa-eight.vercel.app/",
+    "href":`https://github.com/emirtetik/Drum-machine/blob/master/src/Components/DrumMachine.js`,
+    "img":`/images/drum.png`,
+    "make":"React",
 
-    "img":"/images/responsive.png",
-    "img1":"/images/responsive1.jpg",
-    "img2":"/images/responsive2.webp",
-    "img4":"/images/responsive4.jpg",
-    "img5":"/images/responsive5.jpg",
- 
-    "text1":" Responsive tasarım nedir? Responsive, uyumlu web tasarım anlamına gelir. Son birkaç yılda ismini sıkça duyduğumuz bu web tasarım, ilk olarak 2010 tarihinde ortaya çıktı ve o zamandan beri dünyada ve ülkemizde popüler oldu. Responsive tasarım, web sitesi tablet ve mobil cihazlardan girildiği zaman sitenin içindeki yazı, resim gibi elementlerin ekranın genişliğine göre yeniden şekillenerek ekrana tam oturması ile oluşur. Genelde mobil, desktop ve tablet versiyonu olarak 3 aşamalı biçimde tasarlanır. Web sitelere mobil cihazlardan girildiği zaman ziyaretçiler siteyi gezmekte ve görüntülemekte güçlük yaşarlar. Eğer girmiş oldukları site responsive veya mobil site değilse, okumak istedikleri bölümü ancak zoom yaparak okuyabilirler, kısıtlı bir alanı görüntüleyebildikleri için kullanım zorluğu çekerler. Sitede yer alan menüleri gezmekte oldukça zordur ve menüler mobil uyumlu olmadığı için genelde gitmek istedikleri link bulunmaktadırlar. Responsive web sitesi tasarımı hazırlayabilmek için güncel olan web yazılım dillerinden CSS3, HTML5 bu dillerin kodlama yapısından fayda sağlanacağı gibi grid tasarım kullanılmasında da büyük önemi vardır. Grid yapıda hazırlanmış olan tasarımın mobile duyarlı bir şekilde kodlanmasında hazır framework sistemleri kullanılabilir olmaktadır.",
-    "text2":"Responsive Nedir? Son birkaç yılda ismini sıkça duyduğumuz responsive tasarım Türkçe'ye uyumlu ve duyarlı tasarım şeklinde çevrilebilir. 2010 tarihinde ortaya çıkmasına rağmen birkaç yıl içerisinde hem ülkemizde hem de dünyada oldukça popüler olan responsive tasarım, bir web sitesinde masaüstü bilgisayar, tablet, akıllı telefon gibi büyük ya da küçük ekranlı cihazlardan giriş yaptığınızda; sitenin içinde bulunan resim, yazı gibi içeriklerin giriş yapılan cihazın ekran genişliğine göre yeniden şekillenerek cihaz ekranına tam uyumlu hale gelerek kullanıcı ile buluşmasını sağlar. Responsive tasarımı, kullanıcıların gördüğü cihazın çeşidine bağlı olarak, kendisini yanıtlayan ya da yeniden boyutlandıran bir web sayfası olarak düşünülebilir.",
-    "text4":"Responsive Tasarım Nasıl Yapılır?Responsive tasarım nedir? Temalar yardımıyla mobil cihazlarda Google gibi programlarda siteler arası geçiş yaparken önümüze çıkan pek çok sitede responsive vardır. Bu sitelere girdiğiniz cihazın boyutu ve çözünürlüğü ne olursa olsun siteye giriş yaptığınız zaman yine de sitenin temasında bozulma olmayacaktır. Sizde bu yöntemle sitenizi kullanıcılara uyumlu hale getirebilirsiniz.Responsive tema hazırlamak için birkaç yöntem mevcuttur. Bu yöntemler şunlardır.Bootstra: Youtube ve Udemy Üzerinden birçok videosu bulunur.", 
-    "text5":" Beğendiğiniz bir tanesini seçerek izleyip en kolay yoldan sitenizi Responsive bir şekilde tasarlamış olursunuz.% ile Çalışma: Yüzdeyle çalıştığınız zaman başka hiçbir şey yapmanıza gerek yoktur. Ama tek sorun % ile çalışmanız “px” ile çalışmaktan biraz daha zordur.@media Etiketi: Temanızın her çözünürlükte aynı olarak düzenlersiniz. Temalarda “px” ile çalışanlar için tercih edilmesi gereken bir yöntemdir.",
-    "text6_5":"Responsive Tasarım  Web sitesi geliştirirken “px” ile ilgili çalışanların sabit ölçü değerleri vardır. Bu ölçülerle her kullanıcıya daha kolay bir şekilde ulaşılır.  Mobil Tasarımlar için 768 px boyutundan daha küçük ölçüler ile çalışma yapmalısınız.Masaüstü Tasarımlar için 992 px boyutundan daha küçük ölçüleri kullanarak çalışma yapmalısınız.Tablet Tasarımlar için 768 px boyutundan daha küçük ölçüler ile çalışma yapmalısınız.Büyük ekranlar da 1200 px boyutundan daha küçük ölçüler yardımıyla çalışma yapmalısınız.",
-    "text7":"Responsive Tasarım Teknikleri Nelerdir? Responsive tasarım nedir? Responsive tasarım teknikleri şunlardır; Responsive tasarlanırken birçok teknik bulunmaktadır. Bu teknikler web sitesi geliştirirken size çok yardımcı olacaktır. Responsive kolay yoldan çalışmak isterseniz, bunu Bootstrap ile çalışmalısınız. PX ile çalışmak çoğu zaman daha rahat geliyor. Sizlerde rahatınıza düşkünseniz PX ile çalışmalısınız ama @media ile tasarlamayı öğrenmeniz gerekir. Temanız için bir resim kullanacaksanız vektörel çizilmiş bir resim olmalıdır. Bu sayede resmi ne kadar küçültüp büyütseniz de resmin kalitesinde herhangi bir sorun olmayacaktır.Adsense' deki reklamlarınızı mobil uyumlu hale getirin. Bloğumu okuduğunuz için teşekkür ederim bir sonraki blogta görüşmek üzere.  "
+    
+    "text1":"Merhaba müzikseverler! Bugün size heyecan verici bir müzik deneyimi sunacak kendi drum machine uygulamanızı nasıl oluşturabileceğinizi anlatacağım. Önceden verdiğiniz kodları kullanarak, hem yazılım becerilerinizi geliştirecek hem de özgün bir müzik aleti yaratacaksınız.Drum machine uygulaması, ritimleri ve perküsyon seslerini oluşturmanızı sağlar. İstediğiniz gibi davul seslerini çalabilir, kaydedebilir ve müziğinizi yaratıcı bir şekilde düzenleyebilirsiniz.",
+
+    "text2":"Drum machine uygulamanızı React ve JavaScript kullanarak inşa edeceğiz. React, kullanıcı dostu arayüz bileşenleri oluşturmanıza olanak sağlar. Bu sayede drum pad'leri ve kontrolleri kolayca oluşturabilirsiniz. JavaScript ise uygulamanızı dinamik ve etkileşimli hale getirmek için kullanacağınız güçlü bir dil.Kodlarınızda yer alan useState, useEffect ve useCallback gibi React kancalarını kullanarak uygulamanızın durumunu takip edebilir, etkileşimleri yönetebilir ve gerektiğinde sesleri çalabilirsiniz. Ayrıca, davul pad'lerine tıklama veya tuşa basma gibi kullanıcı etkileşimlerini dinlemek için onClick ve addEventListener gibi olay dinleyicilerini kullanabilirsiniz.",
+   
+    "text3":"Uygulamanızda yer alan DrumPad bileşeni, her bir davul pad'i temsil eder. Bu bileşen, sesleri çalma, sesin etkinleştirilip etkinleştirilmediğini takip etme ve güncellemeleri kullanıcıya gösterme gibi işlevleri yönetir.Örneğin, playSound fonksiyonu, belirli bir davul pad'i tıklandığında veya tuşa basıldığında çağrılır ve ilgili sesi çalar. Ardından, sesin etkinleştirildiğini ve güncellemelerin yapılması gerektiğini bildirmek için durumları günceller. Böylece, kullanıcılarınız her bir davul sesinin etkinleştirildiğini ve uygulamanın durumunu görebilir.", 
+
+    "text4":"Drum machine uygulamanız, güç düğmesi ve ses bankı kontrolü gibi önemli kontrolleri içerir. Güç düğmesini açtığınızda uygulama etkinleşir ve davul sesleri çalmaya başlar. Güç düğmesini kapatırsanız, uygulama sessizleşir ve sesler çalmaz.Ayrıca, ses bankı kontrolüyle farklı ses bankları arasında geçiş yapabilirsiniz. Bu sayede farklı müzik türlerine veya seslere uygun davul seslerini kullanabilirsiniz. Kendi ses banklarınızı oluşturmak için kodlarınızdaki ses URL'lerini ve açıklamalarını değiştirebilirsiniz.",
+     
+    "text5":`Artık drum machine uygulamanızı nasıl oluşturabileceğinizi ve hangi yazılım becerilerini kullanacağınızı biliyorsunuz. Verdiğiniz kodları kullanarak başlayın ve müzikal yeteneklerinizi geliştirmek için bu benzersiz deneyimi yaşayın.
+
+    Her adımda kendi müzikal yolculuğunuza ilerleyin ve drum machine uygulamanızı kişiselleştirin. Müzik dünyasının sınırsız potansiyelini keşfedin ve kendi özgün melodilerinizi oluşturun. `
 },
 
 ]

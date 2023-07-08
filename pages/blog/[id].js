@@ -26,11 +26,12 @@ import {data} from '../../data.js'
 
      <div className={Detailscss.container_detail}>
                    
-        <h1 >{userData?.header}</h1>
+        <h1 className={Detailscss.header}>{userData?.header}</h1>
         <p>{userData?.text}</p>
         <p> {userData?.listext1}</p>
         <Image  priority={true}   width={800} height={300} src={userData?.img} alt="blog image" className={Detailscss.image} />
            
+        <h5>{userData?.title}</h5>
  
         <p>{userData?.text1}</p>
         {userData?.img1 && (
@@ -43,6 +44,8 @@ import {data} from '../../data.js'
         className={Detailscss.image}
       />
     )}
+        <h5>{userData?.title1}</h5>
+
         <p>{userData?.text2}</p>
         <h5>{userData?.soru}</h5>
         {userData?.img2 && (
@@ -59,13 +62,15 @@ import {data} from '../../data.js'
         <Image  priority={true}   width={800} height={300} src={userData?.img3} alt="blog image" className={Detailscss.image} />
 
          )}
+        <h5>{userData?.title3}</h5>
 
-        <p>{userData?.text5}</p>
+        <p>{userData?.text4}</p>
+
         <p>{userData?.text4_5}</p>
+        <p>{userData?.text5}</p>
 
         
 
-        <p>{userData?.text4}</p>
     {userData?.img4 && (
         <Image  priority={true}   width={800} height={300} src={userData?.img4} alt="blog image" className={Detailscss.image} />
 
