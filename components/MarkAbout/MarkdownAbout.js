@@ -17,38 +17,34 @@ function MarkdownAbout() {
       <div className={MarkAboutcss.row}>
         <p className={MarkAboutcss.text}>
 
-          Yaklaşık 1 sene önce hosting şirketinde çalışmaya ve
-          eğitim almaya başladım.Bu işe başladığım zaman sitelerin 
-          ön yüzlerinin nasıl yapıldığı ve front-end developerın 
-          ne olduğuna dair en ufak bir fikrim yoktu. Daha sonra yaptığım
-          işin detaylarına girdikçe benim asıl keyif alabileceğim 
-          mesleğin front-end developer olmak olduğunun farkına vardım.
-          Bilgisayar başında bir şeyler araştırmak, bu araştırmaları 
-          deneyimlemek ve bu deneyimlerle yeni bir şeyler üretmeyi 
-          seviyorum. Bir yandan para kazanırken bir yandan da 
-          sevdiğim işi yapabilecek olduğum için front-end developer 
-          olmaya karar verdim.Bu mesleği yapabilmek için gerekli 
-          olan donanımı birçok ücretsiz kaynaktan araştırma yaparak
-          ve eğitim alarak kazanmaya çalışıyorum. Bu araştırmalara
-          ve eğitimlere günümün yaklaşık 10 saatini ayırarak
-          kendimi geliştiriyorum.Bu yolda çok ilerlediğimi 
-          düşünüyorum ve ilerlemeye devam edeceğim.
+        Frontend Developer olarak çalışıyorum
+        ve HTML, CSS, JavaScript gibi temel
+        teknolojilerin yanı sıra React ve
+        React Native gibi önemli teknolojilerde
+        de deneyim sahibiyim.Müşterilerimle 
+        aktif iletişim kurarak projeleri
+        kişiselleştiriyor ve en iyi çözümleri 
+        sunmaya odaklanıyorum. İşbirliği
+        ve takım çalışmasına büyük önem veriyor,
+        projelere katkı sağlamayı amaçlıyorum.
+        
+        Ayrıca, günlük hayatımda güncel teknolojik
+        haberleri takip etmeyi ve kendi girişimim
+        olan ve ortak ekibimle birlikte üzerinde 
+        çalıştığım bir uygulamayı geliştirmekle
+        ilgileniyorum.
+        
+        Şirketinizde veya projenizde birlikte
+        çalışarak başarıya ulaşmayı hedefliyorum.
+        Tutkulu bir Frontend Developer olarak,
+        işinizi ileriye taşıyacak çözümler sunmak
+        için buradayım. Daha fazla bilgi almak
+        veya işbirliği fırsatlarını değerlendirmek
+        için benimle iletişime geçmekten çekinmeyin.
+        
+        Görüşmek üzere!       
 
-        </p>
-      </div>
-      <div className={MarkAboutcss.additionalRow}>
-        <p className={MarkAboutcss.text}> 
-
-          Kocaeli Üniversitesi İngilizce-İktisat bölümü mezunuyum.
-          25 yaşındayım ve kod yazmaktan çok keyif alıyorum.
-          Öğrendiğim çoğu bilgiyi diğer front-end
-          developerların paylaşımları ve yardımları sayesinde öğrendim.
-          Bu yüzden ben de bu yolda öğrendiklerimi ve yaptığım işleri 
-          diğer front-end developer arkadaşlarım için blog
-          sayfamda paylaşıyorum. Web geliştirme alanında sorularınız
-          için sosyal medya hesaplarımdan bana ulaşabilirsiniz.
-          
-        </p>
+        </p> 
       </div>
     </div>
   )
@@ -97,6 +93,7 @@ function MarkdownAbout() {
           </pre>
         </div>
       </div>
+      
     </div>
   );
 }

@@ -41,7 +41,7 @@ const  Blog = ({data}) => {
           <h1 className={Blogcss.h1}>Blog </h1>
           <p><b>FRONTMİR </b>'in bloguna hoş geldiniz! Burada web teknolojileriyle ilgili makaleler ve ilginç trendler hakkında keyifle okuyabileceğiniz içerikler sunuyoruz. Başka bir deyişle, Frontend developer hakkında en son gelişmeleri takip etmenin ve bu konular
              hakkında daha fazla bilgi sahibi olmanın kolay yolunu sunuyoruz. Keyifle okuyun! </p>
-          <h2>Tüm Blog ve Projelerim!</h2>
+          <h2>Tüm Blog ve Projelerim</h2>
        
         </div>
 
@@ -71,7 +71,6 @@ const  Blog = ({data}) => {
   <span className={Blogcss.blog_time}>{blog.date}</span>
 
 
-  <p className={Blogcss.blog_description}>{blog.title}</p>
   <div className={Blogcss.blog_option}>
     <span>
     {blog.make}

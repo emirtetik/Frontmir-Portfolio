@@ -86,9 +86,9 @@ export default function Home() {
 </div>
 <div className="container-play">
 <h4 className='play'>
-<span className="titles">HTML</span>
-<span className="titles">CSS </span>
-<span className="titles">JAVASCRIPT</span>
+<span className="titles">Javascript</span>
+<span className="titles">Nextjs</span>
+<span className="titles">React Native</span>
 </h4>
 <div onClick={click}  className="restart">Restart</div>
 </div>

@@ -8,7 +8,7 @@ export  const  data = [
         "img":"/images/login.png",      
         "img2":"/images/rooms.png",      
         "img3":"/images/messages.png",      
-        "make": "React Native-Firebase-Formik",
+        "make": "React Native-Firebase",
 
         "text":`Codetalks, benim tarafımdan geliştirilen bir React Native projesidir. Bu proje, kullanıcıların birbirleriyle sohbet etmelerini sağlayan basit ve kullanıcı dostu bir sohbet uygulamasıdır. Projede, React Native'in sunduğu birçok kütüphane ve Firebase'in backend hizmetleri kullanılmıştır.`,
         "title":`Proje Hakkında Genel Bilgiler:`,

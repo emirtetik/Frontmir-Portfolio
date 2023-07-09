@@ -97,9 +97,11 @@
   
     .Container{
       padding-top: 7%;
+
     }
     #Details{
-      padding-bottom: 1rem;
+      padding-bottom: 0rem;
+
     }
     
   .container_detail h1 {

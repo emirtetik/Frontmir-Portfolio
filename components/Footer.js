@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import {ImArrowRight} from "react-icons/im"
 import {MdAttachEmail} from "react-icons/md"
 import {BsFillPhoneFill} from "react-icons/bs"
@@ -6,28 +6,10 @@ import {AiFillInstagram,AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {SiFiverr} from "react-icons/si"
 import Footercss from "../styles/Footer.module.css"
 import Link from 'next/link'
-function Footer() {
-   const [name, setName] = useState("")
-   const [email, setEmail] = useState("")
+import Form from "../components/Form/Form"
 
-   function handleSubmit(e) {
-    e.preventDefault();
-    
-    // Form doğrulamalarını yapın
-    if (name.trim() === '') {
-      console.log('Lütfen bir isim girin.');
-      return;
-    }
+function Footer() {
   
-    if (email.trim() === '') {
-      console.log('Lütfen bir e-posta adresi girin.');
-      return;
-    }
-  
-  
-    setName('');
-    setEmail('');
-  }
 
   return (
     <footer className={Footercss.footer} >
@@ -60,18 +42,7 @@ function Footer() {
            </ul>
            </div>
 
-        <div className={Footercss.form}>
-        <h5 className={Footercss.footer_title}>İletişim</h5>
-
-            <form action="https://getform.io/f/4f373ce7-d22a-4ec2-8951-38f976aafa7d" method="POST" onSubmit={handleSubmit}>
-              <div className={Footercss.input_container}>
-              <input type="text" name="name" placeholder="Name"  value={name} onChange={(e) => setName(e.target.value)} />
-              <input type="email" name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-              </div>
-              <textarea name="message" placeholder="Message"></textarea>
-              <button className='btn' type="submit">Send</button>
-            </form>
-          </div>
+        <Form/>
 
 
                    

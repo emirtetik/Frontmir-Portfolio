@@ -14,7 +14,7 @@
   }
   .panel{
     background-color: var(--third-color);
-    width: 90%;
+    width: 100%;
     padding: 10px;
     overflow: hidden;
     border-top-left-radius: 10px;
@@ -27,7 +27,7 @@
      font-size: 20px;
   }
   .textarea {
-    width: 90%;
+    width: 100%;
     height: 37rem;
     padding: 20px;
     font-size: 1.8vh;
@@ -55,7 +55,7 @@
   padding: 0px;
   text-align:start;
   }
-
+  
   
   @media screen and (max-width: 768px) {
     .container {
@@ -83,15 +83,13 @@
   }
   @media screen and (max-width: 480px) {
     .textarea {
-      width: 60%;
-
-      margin-left: 10px;
+      width: 100%;
+     text-align:-webkit-center;
     }
     .markdown {
       height:auto;
-      width: 80%;
-      text-align: center;
-      margin-left: 20px;
+      width: 100%;
+      text-align: start;
     }
  
   }

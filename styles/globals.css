@@ -15,7 +15,8 @@
    --white-color:white;
   --gradient-color:linear-gradient(to bottom, #D9E4EA, #354a54, black);
   --gradient2-color:linear-gradient(to top, #f2972f73, #354a5479, black);
-
+  --gradient3-color:linear-gradient(to bottom,black, #F2962F);
+  --gradient4-color: radial-gradient(circle, rgba(242,150,32,1) 0%, rgba(53,74,84,1) 75%);
 }
 
 h1,h2,h3,h4,h5,h6,.restart{

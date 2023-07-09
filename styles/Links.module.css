@@ -1,14 +1,16 @@
 .link{
-    background-color: #000000;
+    background: var(--gradient4-color);
     font-size: 15px;
    letter-spacing: 2px;
    color: rgb(255, 255, 255);
    width: 100%;
    padding-top: 6.5%;
-   background-image: url("../public/images/graph-1.png");
+   /* background-image: url("../public/images/graph-1.png"); */
    background-size: cover;
    background-repeat: no-repeat;
    height: auto;
+   padding-top: 8%;
+
   
   }
   
@@ -79,15 +81,19 @@
       @media only screen and (max-width:1280px ) and (min-width:768px)  and (orientation : landscape) {
         .link{
           height: auto;
+
         }
       }
       @media (min-width: 481px) and (max-width: 767px) {
         .link{
+          padding:20%;
           height: auto;
+
         }
       }
       @media (min-width: 320px) and (max-width: 480px) {
         .link{
           height: auto;
+          padding-top: 30%;
         }
       }
