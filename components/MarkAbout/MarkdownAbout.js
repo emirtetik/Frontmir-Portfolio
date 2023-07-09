@@ -13,8 +13,8 @@ function MarkdownAbout() {
   const defaultAbout = `const merhabaBenEmir = () => {
 
   return (
-    <div className={MarkAboutcss.container}>
-      <div className={MarkAboutcss.row}>
+        <div className={MarkAboutcss.container}>
+        <div className={MarkAboutcss.row}>
         <p className={MarkAboutcss.text}>
 
         Frontend Developer olarak çalışıyorum
@@ -45,10 +45,11 @@ function MarkdownAbout() {
         Görüşmek üzere!       
 
         </p> 
-      </div>
-    </div>
-  )
-}`;
+        </div>
+        </div>
+
+       )}
+`;
 
   const syntaxHighlighterRef = useRef(null);
   const [input, setInput] = useState(defaultAbout);
