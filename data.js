@@ -3,6 +3,35 @@
 export  const  data = [ 
     {
         "id":1,
+        "header":"Asya Mimarlık ve Sanity",
+        "date":"20 Temmuz 2023'de yüklendi.", 
+        "make": "Nextjs,Sanity,i18n",
+        "img":"/images/asyamimar.png",
+        'text': `Merhaba tekrar! Bu yazımda, son projem olan "Asya Mimarlık" web sitesini daha detaylı bir şekilde inceleyeceğim. Projede kullanılan teknolojilere ek olarak, çoklu dil desteğini nasıl entegre ettiğimizi de anlatacağım.`, 
+        'text1': `"Asya Mimarlık", Kocaeli bölgesinin önde gelen inşaat ve emlak şirketlerinden biridir. Kocaeli'deki uzun yıllara dayanan deneyimi ve başarılı projeleri ile sektörde öne çıkmaktadır. Şirket, mimari projelerde yenilikçi ve kaliteli çözümler sunarak müşteri memnuniyetini her zaman ön planda tutmaktadır. Geliştirdiği projelerle bölgeye değer katmayı hedefleyen Asya Mimarlık, estetik ve fonksiyonelliği bir araya getiren tasarımlarıyla tanınır.`,
+        'text2': `"Asya Mimarlık" web sitesini oluşturmak için aşağıdaki teknolojileri ve kütüphaneleri kullandım:
+
+        Next.js: SSR (Sunucu Taraflı Render) özelliği ile performansı artırıp SEO dostu bir web sitesi oluşturmak için Next.js çerçevesini tercih ettim.
+        i18next: Proje için çoklu dil desteği sağlamak amacıyla i18next kütüphanesini kullandım. Bu sayede kullanıcılar web sitesini kendi tercih ettikleri dillerde görüntüleyebilirler.
+        Sanity CMS: İçerik yönetimi için Sanity CMS'i tercih ettim. Verileri kolayca düzenleyebilmek ve yönetebilmek için Sanity Studio'yu kullandım.`,
+        'text3': `Asya Mimarlık web sitesinde kullanıcıların farklı dillerde içeriği görüntüleyebilmesini sağlamak için i18next kütüphanesini entegre ettim. Bu, kullanıcı deneyimini artırmanın yanı sıra, uluslararası müşterilere daha iyi hizmet verebilmemizi sağlar.
+
+        Çoklu dil desteği için aşağıdaki adımları takip ettim:
+        
+        Dil Kaynaklarını Yükleme: İlk adım olarak, projede kullanılacak dil kaynaklarını yüklemek için i18next kütüphanesini projeye dahil ettim.
+        
+        Dil Seçeneklerini Ayarlama: Next.js'in getInitialProps yöntemini kullanarak, kullanıcının tarayıcı ayarlarına göre varsayılan bir dil belirledim.
+        
+        Dil Değiştirme Düğmeleri: Web sitesinin üst kısmında, kullanıcıların dil seçimini kolayca yapabileceği bir dil değiştirme düğmesi ekledim.
+        
+        Çeviri Desteği: Sayfalarda ve içeriklerde kullanılacak metinleri, i18next'in çeviri fonksiyonları ile işaretledim. Bu sayede, dil değiştirildiğinde ilgili metinler otomatik olarak çevrilir.`,
+        'text4': `Proje kapsamında, web sitesindeki projelerin ve etkinliklerin detaylarını anlatan blog içeriği de ekledim. Bu blog sayfaları, Sanity CMS üzerinden kolayca yönetilebilir. İçerik eklemek veya düzenlemek için Sanity Studio'yu kullanarak yeni blog gönderilerini oluşturabilir ve düzenleyebiliriz.`,
+        'text7':`Umarım bu yazı, "Asya Mimarlık" projesinin nasıl oluşturulduğu ve çoklu dil desteğinin nasıl entegre edildiği konusunda size daha fazla bilgi sağlamıştır. Eğer başka herhangi bir sorunuz olursa, size yardımcı olmaktan mutluluk duyarım!`,
+        'live':"https://asya-mimarlik.vercel.app/",
+        "href":  "https://github.com/emirtetik/Asya-Mimarlik",
+    },
+    {
+        "id":2,
         "header":"React Native ile Mesajlaşma",
         "date":"9 Temmuz 2023'de yüklendi.", 
         "img":"/images/login.png",      
@@ -41,7 +70,7 @@ export  const  data = [
 
     },
     {
-        "id":2,
+        "id":3,
         "header":"Nextjs İle Spora Başlayabilirsin.",
         "date":"6 Temmuz 2023'de yüklendi.", 
         "img":"/images/alies.png",
@@ -58,7 +87,7 @@ export  const  data = [
           "make": "Nextjs-Bootstrap"
     },
     {
-    "id":3,
+    "id":4,
     "header":"AyvazCamping Work",
     "date":  "9 Ekim 2022'de yüklendi.",
     "listext1":"Sadece Html ve Css kullanarak yapabiliceğiniz bir web sitesi.",
@@ -87,7 +116,7 @@ export  const  data = [
        },
 
 {
-    "id":4,
+    "id":5,
     "header":"React nedir? ",
     "date":"14 Aralık 2022'de yüklendi.",
     "text":"Bu Projede kullandığım diller ve detayları;",
@@ -116,7 +145,7 @@ export  const  data = [
     "make": "React-Gsap-React_scroll"
 },
 {
-    "id":5,
+    "id":6,
     "header":"Node.js Nedir?",
     "date":"1 Şubat 2022'de yüklendi.",
     // "title":"Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz. ",

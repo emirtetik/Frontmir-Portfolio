@@ -74,7 +74,6 @@ function MarkdownAbout() {
         <h2 className={MarkAboutcss.editor_head}>Editor</h2>
         <div className={MarkAboutcss.panel}><p>Example Code</p></div>
         <textarea
-          autoFocus
           className={MarkAboutcss.textarea}
           value={input}
           onChange={handleInputChange}

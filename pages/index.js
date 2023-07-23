@@ -47,6 +47,8 @@ export default function Home() {
       />
 
     <div className='home'>
+ 
+
 
     {/* -----hero------ */}
 <section className="banner">
