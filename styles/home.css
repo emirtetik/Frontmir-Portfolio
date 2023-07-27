@@ -606,7 +606,7 @@
 
 
 
-@media only screen and (min-width:768px)  and (orientation : landscape) {
+@media only screen and (max-width:1600px ) and (min-width:768px)  and (orientation : landscape) {
 
 	
 	
@@ -710,27 +710,27 @@
 	.restart{
           font-size: 5px;	
 	  }
-	.images{
-			width: 130px;	
-			height: 150px;
-	}
-	.hero-box{
-		grid-gap: 50px;
-		height: auto;
-	 }
-	.hero-text{
-		width: 100px;
-	}
-	.front{
-		font-size: 1.5vh;
-	}
-	.name{
-		font-size: 1.5rem;
-	}
-	.container-play  .titles {
-		font-size: 1vh;
-		line-height: 15px;
-	  }
+	  .images{
+		width: 130px;	
+		height: 150px;
+}
+.hero-box{
+	grid-gap: 50px;
+	height: auto;
+ }
+.hero-text{
+	width: 100px;
+}
+.front{
+	font-size: 1.5vh;
+}
+.name{
+	font-size: 1.5rem;
+}
+.container-play  .titles {
+	font-size: 1vh;
+	line-height: 15px;
+  }
   .icon-box{
 	gap: 1px;
   }

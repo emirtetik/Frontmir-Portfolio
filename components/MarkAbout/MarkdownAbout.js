@@ -73,11 +73,13 @@ function MarkdownAbout() {
       <div className={MarkAboutcss.editor}>
         <h2 className={MarkAboutcss.editor_head}>Editor</h2>
         <div className={MarkAboutcss.panel}><p>Example Code</p></div>
+        <div className={MarkAboutcss.container_code}>
         <textarea
           className={MarkAboutcss.textarea}
           value={input}
           onChange={handleInputChange}
         />
+        </div>
       </div>
       <div className={MarkAboutcss.preview}>
         <h2 className={MarkAboutcss.preview_head}>Preview</h2>
