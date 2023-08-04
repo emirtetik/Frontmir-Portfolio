@@ -1,8 +1,40 @@
 
 
 export  const  data = [ 
-    {
+     {
         "id":1,
+        "header":"Enes İnşaat ve Typescript",
+        "date":"04 Ağustos 2023'de yüklendi.", 
+        "make": "Formik,yup,Typescript,swiper,lottie",
+        "img":"/images/enesinsaat.png",
+        'text': `Merhaba sevgili okuyucular,
+
+        Bugün sizlere, benim bir frontend developer olarak geliştirdiğim ve büyük bir gurur duyduğum Enes İnşaat projesinden daha detaylı bir şekilde bahsetmek istiyorum. Bu proje, inşaat malzemeleri satan bir firmanın dijital dönüşümüne olanak sağlamak için hazırlanan özel bir web sitesini kapsıyor.`, 
+        'text1': `Next.js: Enes İnşaat projesi, Next.js çatısı üzerine inşa edilmiştir. Next.js, React tabanlı, server-rendering ve static site generation desteğine sahip modern bir web framework'üdür. Bu sayede, hızlı ve performanslı bir web uygulaması elde edilmiştir.
+
+        `,
+        'text2': `TypeScript: TypeScript, JavaScript'e tip güvenliği getiren ve geliştirme sürecini daha sağlam ve hatasız hale getiren bir dil. Proje TypeScript kullanarak daha güvenli bir kod yazımı sağlamış ve büyük ölçüde hata payını azaltmıştır.`,
+        'text3': `Tailwind CSS ve PostCSS: Tailwind CSS, utility-first CSS yaklaşımıyla tasarım ve stil özelliklerini yönetmeyi kolaylaştıran bir CSS framework'üdür. Proje, PostCSS ile birlikte kullanılarak, daha temiz ve düzenli bir CSS kodu sağlamıştır.
+`,
+        'text4': `i18next: Proje, çok dil desteği için i18next ve i18next-browser-languagedetector gibi kütüphaneleri kullanmıştır. Bu sayede, müşterilerin farklı dil seçeneklerinde gezinmeleri kolaylaşmış ve küresel müşteri kitlesine ulaşma imkanı elde edilmiştir.`,
+        'text5': `Formik ve Yup: Formik, kullanıcıların etkileşimli formlarını kolayca yönetmeyi sağlayan bir form kütüphanesidir. Yup ise, şema doğrulama için kullanılan bir kütüphanedir. Proje, Formik ve Yup'ı kullanarak müşteri odaklı formların güvenli bir şekilde yönetimini sağlamıştır.`,
+        'text6':`Swiper ve Lottie: Swiper, mobil uyumlu kaydırma efektleri ve karuseller oluşturmak için kullanılan bir kütüphanedir. Lottie ise, hareketli grafikleri ve animasyonları kolayca eklemeyi sağlayan bir JSON formatıdır. Proje, Swiper ve Lottie ile görsel içeriği daha etkileyici hale getirerek kullanıcı deneyimini artırmıştır.`,
+        'text7':`Enes İnşaat projesi, firmanın dijital varlığını oluşturmak ve müşterilere daha iyi hizmet vermek amacıyla başlatılmıştır. Proje kapsamında, firmanın ürün yelpazesini ve hizmetlerini çevrimiçi platformda sergilemek hedeflenmiştir. Ayrıca, müşterilere kolay bir şekilde iletişim kurabilmeleri ve ihtiyaçlarına yönelik ürünleri arayıp bulabilmeleri için etkileşimli bir arayüz tasarlanmıştır.
+
+        Proje ekibi, müşteri gereksinimlerini dikkate alarak kullanıcı dostu bir tasarım oluşturmuş ve UI/UX konusunda özenle çalışmıştır. Mobil uyumluluk ve temaya duyarlılık, müşterilerin farklı cihazlardan sorunsuz bir şekilde erişebilmelerini sağlamıştır.
+        
+        Ayrıca, projenin dil desteği sayesinde, farklı ülkelerdeki kullanıcılar, kendi ana dillerinde içeriği görüntüleyebilmekte ve firmanın küresel pazarlara açılmasına yardımcı olmaktadır.
+        
+        Projenin geliştirilme süreci, ekip içinde işbirliğine ve proje yönetimine özel bir önem verilerek gerçekleştirilmiştir. Sürekli olarak geri bildirim alınarak ve kullanıcı testlerine dayalı olarak iyileştirmeler yapılmıştır.`,
+        "sonuc":"Sonuç",
+         "text8":`"Müşteri odaklı" bir tasarım anlayışıyla hareket ettim ve projeyi oluştururken müşterilerin ihtiyaçlarını sürekli olarak göz önünde bulundurdum. Kendi test kullanıcılarımla gerçekleştirdiğim denemeler sayesinde, kullanıcı dostu bir arayüz tasarladım ve projeyi sürekli olarak geliştirerek daha iyi bir hale getirdim.
+         Mobil uyumluluk ve çok dil desteği, projenin daha geniş bir kitleye ulaşmasını sağladı. Kullanıcıların farklı cihazlardan rahatlıkla erişebilmelerini ve kendi ana dillerinde içeriği görebilmelerini hedefledim.         
+         Bu projenin başarıya ulaşması, daha büyük hedeflere ulaşmam için beni cesaretlendiriyor. Gelecekte daha büyük ve daha karmaşık projelerde yer almak için sabırsızlanıyorum. Sizlerle daha fazla başarı hikayemi paylaşmak için sabırsızlanıyorum.`,    
+        'live':"https://insaatenes.com/",
+        "href":  "https://github.com/emirtetik/Enes-Yapi-Malzemeleri",
+    },
+    {
+        "id":2,
         "header":"Asya Mimarlık ve Sanity",
         "date":"20 Temmuz 2023'de yüklendi.", 
         "make": "Nextjs,Sanity,i18n",
@@ -31,7 +63,7 @@ export  const  data = [
         "href":  "https://github.com/emirtetik/Asya-Mimarlik",
     },
     {
-        "id":2,
+        "id":3,
         "header":"React Native ile Mesajlaşma",
         "date":"9 Temmuz 2023'de yüklendi.", 
         "img":"/images/login.png",      
@@ -70,7 +102,7 @@ export  const  data = [
 
     },
     {
-        "id":3,
+        "id":4,
         "header":"Nextjs İle Spora Başlayabilirsin.",
         "date":"6 Temmuz 2023'de yüklendi.", 
         "img":"/images/alies.png",
@@ -87,7 +119,7 @@ export  const  data = [
           "make": "Nextjs-Bootstrap"
     },
     {
-    "id":4,
+    "id":5,
     "header":"AyvazCamping Work",
     "date":  "9 Ekim 2022'de yüklendi.",
     "listext1":"Sadece Html ve Css kullanarak yapabiliceğiniz bir web sitesi.",
@@ -116,7 +148,7 @@ export  const  data = [
        },
 
 {
-    "id":5,
+    "id":6,
     "header":"React nedir? ",
     "date":"14 Aralık 2022'de yüklendi.",
     "text":"Bu Projede kullandığım diller ve detayları;",
@@ -145,7 +177,7 @@ export  const  data = [
     "make": "React-Gsap-React_scroll"
 },
 {
-    "id":6,
+    "id":7,
     "header":"Node.js Nedir?",
     "date":"1 Şubat 2022'de yüklendi.",
     // "title":"Node.js açık kaynaklıdır bu da demek oluyor ki JavaScript kodunu tarayıcı ya da benzeri bir şeye ihtiyaç duymadan kolaylıkla bilgisayarınızda çalıştırabilirsiniz. ",
@@ -169,7 +201,7 @@ export  const  data = [
    
 },
 {
-    "id":6,
+    "id":9,
     "header":"React Drum-Machine",
     "date":"8 Temmuz 2023' yüklendi.",
     "live":"https://drum-machine-kappa-eight.vercel.app/",
