@@ -201,7 +201,7 @@ export  const  data = [
    
 },
 {
-    "id":9,
+    "id":8,
     "header":"React Drum-Machine",
     "date":"8 Temmuz 2023' yüklendi.",
     "live":"https://drum-machine-kappa-eight.vercel.app/",
