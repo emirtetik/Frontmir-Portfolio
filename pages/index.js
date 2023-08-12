@@ -131,8 +131,8 @@ export default function Home() {
 
 <div className='.resume-cv'>
 
-<a href="emirtetik_cv.pdf"
-download={"Emir-tetik.pdf"}
+<a href="frontmir.cv.pdf"
+download={"frontmir.cv.pdf"}
 > <button className='resume'>
 <span className='resume-span'>
 CV İndir!
